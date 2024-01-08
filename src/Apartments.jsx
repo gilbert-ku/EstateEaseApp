@@ -1,4 +1,5 @@
 import React from 'react';
+import Housecard from './Housecard';
 
 function Apartments() {
   return (
@@ -9,6 +10,9 @@ function Apartments() {
           <p>Your ideal location</p>
           <p>Location: Ngong Road</p>
         </div>
+      </section>
+      <section id='housecards'>
+      <Housecard/>
       </section>
     </>
    
