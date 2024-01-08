@@ -40,14 +40,21 @@
 }
 #housecard-image img{
   width: 400px;
+  height: 300px;
   margin: auto;
+  border-radius: 30px 0 0 30px;
+  object-fit: cover; 
+  object-position: center; 
+  
 }
 #housecard{
   border: 1px solid black;
   width: 800px;
   display: flex;
+  margin: 20px;
+  border-radius: 30px;
 }
-#title{
+#title{ 
   margin: 0 20px;
   justify-content: space-between;
 }
