@@ -27,10 +27,11 @@
 
 .search--box{
   /* min-height: 25rem; */
-  background-color: white;
   margin: auto;
   border: 3px solid #9C5412;
   border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.6); 
+  /* backdrop-filter: blur(10px) brightness(90%) contrast(120%) grayscale(20%) hue-rotate(30deg) invert(10%) opacity(80%) saturate(150%) sepia(10%); */
   
 }
 
@@ -44,6 +45,19 @@
   .search--box {
     width: 90vw; 
   }
+}
+
+.rent--btn {
+  min-height: 2.5rem;
+  background-color: #9C5412;
+  border-radius: 15px 15px 0 0;
+  border: 2px solid #9C5412;
+
+}
+
+.search--bar {
+  border: 3px solid #9C5412;
+  border-radius: 0 15px 15px 15px;
 }
 /* apartmet */
 #page1 {
