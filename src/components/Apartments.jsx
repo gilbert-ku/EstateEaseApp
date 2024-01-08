@@ -18,7 +18,7 @@ function Apartments() {
       description ="Perfect for individuals or couples, our 1-bedroom apartments offer simplicity and comfort. 
       Enjoy a well-equipped kitchen, cozy living space, and convenient amenities"
       rent ="Monthly Rent:"
-      rent_amount = "Ksh 18000"
+      rent_amount = "Ksh 18,000"
       occupancy = "Vacant"
       />
 
@@ -28,7 +28,7 @@ function Apartments() {
   title='2-Bedroom Apartments'
   description='Spacious 2-bedroom apartments designed for families or individuals seeking extra space. Features include a modern kitchen, comfortable living area, and desirable amenities.'
   rent='Monthly Rent:'
-  rent_amount='Ksh 25000'
+  rent_amount='Ksh 25,000'
   occupancy='Occupied'
 />
 
@@ -37,7 +37,7 @@ function Apartments() {
   title='Studio Apartments'
   description='Compact and efficient, our studio apartments are perfect for those who prefer a minimalist lifestyle. Enjoy a combined living and sleeping area, along with a functional kitchen.'
   rent='Monthly Rent:'
-  rent_amount='Ksh 15000'
+  rent_amount='Ksh 15,000'
   occupancy='Vacant'
 />
 
@@ -46,7 +46,7 @@ function Apartments() {
   title='Luxury Penthouse'
   description='Indulge in luxury with our exclusive penthouse featuring breathtaking views, spacious interiors, and top-notch amenities. Ideal for those who appreciate the finer things in life.'
   rent='Monthly Rent:'
-  rent_amount='Ksh 35000'
+  rent_amount='Ksh 35,000'
   occupancy='Vacant'
 />
 
@@ -55,7 +55,7 @@ function Apartments() {
   title='3-Bedroom Townhouse'
   description='Experience the comfort of a townhouse with three bedrooms, suitable for families or individuals desiring ample living space. Enjoy a private yard and premium amenities.'
   rent='Monthly Rent:'
-  rent_amount='Ksh 30000'
+  rent_amount='Ksh 30,000'
   occupancy='Occupied'
 />
 
