@@ -9,12 +9,19 @@
 }
 
 .text-content {
+  text-align: center;
+  color: white;
+  backdrop-filter: none;
+  z-index: 2;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
-  backdrop-filter: none;
-  z-index: 2;
+}
+.text-content h1{
+  font-size: 75px;
+}
+.text-content p{
+  font-size: 25px;
 }
