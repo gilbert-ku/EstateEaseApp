@@ -82,12 +82,13 @@
 #buttons button{
   border-radius: 20px;
   /* width: fit-content; */
-  padding: 2px 5px;
+  padding: 2px 15px;
   border: none;
   color: white;
   background-color: #ff9400;
   box-shadow: 2.5px 2.5px  10px 2px black;
 }
-button #rent{
-width: 50px;
+#buttons button:active{
+  transform: scale(0.95);
+  cursor: pointer;
 }
