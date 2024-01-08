@@ -1,6 +1,12 @@
 import React from 'react'
 
 function Housecard(props) {
+function handleVisitHouse(){
+  alert("I want to view this house")
+}
+function handleRent(){
+  alert("I want to rent this house")
+}
   return (
     <>
     <div id='housecard'>
@@ -15,8 +21,8 @@ function Housecard(props) {
                 <h2>{props.occupancy}</h2>
             </div>
             <div id='buttons'>
-                <button>Book a visit</button>
-                <button>Rent</button>
+                <button id='visit'onClick={handleVisitHouse}>Book a visit</button>
+                <button id='rent' onClick={handleRent}>Rent</button>
             </div>
     </div>
     </div>
