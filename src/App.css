@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+/* home page */
 .landing--page {
   min-height: 100vh;
 
@@ -23,6 +25,27 @@
   /* background-attachment: fixed; */
 }
 
+.search--box{
+  /* min-height: 25rem; */
+  background-color: white;
+  margin: auto;
+  border: 3px solid #9C5412;
+  border-radius: 30px;
+  
+}
+
+@media (min-width: 768px) {
+  .search--box {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .search--box {
+    width: 90vw; 
+  }
+}
+/* apartmet */
 #page1 {
   position: relative; 
   /* padding: 20px; */
