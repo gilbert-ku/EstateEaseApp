@@ -2,16 +2,16 @@ import React from 'react';
 
 function Apartments() {
   return (
-    <section>
-      <div className="blurred-background">
-        <div className="text-content">
+    <>
+      <section id="page1">
+        <div id="content">
           <h1>Kingdom Apartments</h1>
-          <p>Your ideal home.</p>
-          <p>Location: Ngong road</p>
-
+          <p>Your ideal location</p>
+          <p>Location: Ngong Road</p>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
+   
   );
 }
 
