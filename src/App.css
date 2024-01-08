@@ -1,3 +1,28 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing--page {
+  min-height: 100vh;
+
+}
+
+.landing--image {
+  min-height: 92vh;
+  margin-top: 6vh;
+  width: 96vw;
+  margin-left: 2vw;
+  border-radius: 3rem;
+  background-image: url(/public/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
 #page1 {
   position: relative; 
   /* padding: 20px; */
