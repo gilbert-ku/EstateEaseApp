@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useState } from "react";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import DatePicker from 'react-datepicker'
+import 'react-datepicker/dist/react-datepicker.css'
 
 function Housecard(props) {
+  const [date, setDate] = useState(new Date());
+
 function handleVisitHouse(){
   alert("I want to view this house")
 }
 function handleRent(){
   alert("I want to rent this house")
 }
+
   return (
     <>
     <div id='housecard'>
@@ -21,7 +28,15 @@ function handleRent(){
                 <h2>{props.occupancy}</h2>
             </div>
             <div id='buttons'>
-                <button id='visit'onClick={handleVisitHouse}>Book a visit</button>
+            <div>
+            <Popup trigger=
+                {<button onClick={handleVisitHouse}> Book a visit </button>}
+                position="right center">
+                <div>
+                  <DatePicker selected={date} onChange={(date) => setDate(date)} />
+                </div>
+            </Popup>
+        </div>                
                 <button id='rent' onClick={handleRent}>Rent</button>
             </div>
     </div>
