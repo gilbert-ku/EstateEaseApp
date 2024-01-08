@@ -12,7 +12,15 @@ function Apartments() {
         </div>
       </section>
       <section id='housecards'>
-      <Housecard/>
+      <Housecard
+      img = 'https://www.truoba.com/wp-content/uploads/2022/09/Truoba-Mini-1-bedroom-house-plans-1200x800.jpg'
+      title= "1-Bedroom Apartments"
+      description ="Perfect for individuals or couples, our 1-bedroom apartments offer simplicity and comfort. 
+      Enjoy a well-equipped kitchen, cozy living space, and convenient amenities"
+      rent ="Monthly Rent:"
+      rent_amount = "Ksh 18000"
+      occupancy = "Vacant"
+      />
       </section>
     </>
    
