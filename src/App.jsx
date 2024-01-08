@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./Home"
+import Apartments from "./Apartments"
 
 
 function App() {
 
   return (
     <>
-     <Home/>
+     <Apartments/>
     </>
   )
 }
