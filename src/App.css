@@ -1,6 +1,6 @@
 #page1 {
-  position: relative; /* Ensure that the pseudo-element is positioned relative to this */
-  padding: 20px;
+  position: relative; 
+  /* padding: 20px; */
   height: 100vh;
 }
 
@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(4px);
-  -webkit-filter: blur(6px);
+  -webkit-filter: blur(4px);
   position: absolute;
   top: 0;
   left: 0;
@@ -28,8 +28,15 @@
   position: absolute;
 }
 #content h1{
-  font-size: 50px;
+  font-size: 60px;
 }
 #content p{
   font-size: 30px;
+}
+
+#housecards{
+  margin-top: 75px;
+}
+#housecard-image img{
+  width: 400px;
 }
