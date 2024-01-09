@@ -24,15 +24,15 @@ const Homepg = () => {
                 <form>
                   <div className='d-lg-flex flex-column flex-lg-row justify-content-between mx-md-5 mx-3'>
                       <div className="mb-3">
-                          <label for="exampleInputEmail1" className="form-label text-center">Property Type</label>
-                          <select id="disabledSelect" class="form-select">
+                          <label  className="form-label text-center">Property Type</label>
+                          <select id="disabledSelect" className="form-select">
                               <option>Apartment</option>
                               <option>Bungalow</option>
                               <option>Mansion</option>
                           </select>
                       </div>
                       <div className="mb-3">
-                          <label for="exampleInputPassword1" className="form-label text-center">Location</label>
+                          <label  className="form-label text-center">Location</label>
                           <input type="text" className="form-control" id="exampleInputPassword1" placeholder="eg Karen, Lang'ata ..."/>
                       </div>
                       <div className="">
