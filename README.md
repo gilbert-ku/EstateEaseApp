@@ -1,8 +1,6 @@
-# React + Vite
+# EstateEaseAPP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### EstateEaseAPP Figma Design
 
-Currently, two official plugins are available:
+[View Figma Design](https://www.figma.com/proto/ksA4NN2fnpTF55RWZ7fO7b/estateease?type=design&node-id=2-4&t=v2rhWXmXjZznFI3U-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A4)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
