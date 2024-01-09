@@ -5,7 +5,7 @@ const About = () => {
     <>
         <div className='container'>
             <h1 className='text-center mt-5 fs-1' style={{color: "#9C5412"}}>About</h1>
-            <div className=''>
+            <div className='mb-5'>
                 <p className='fs-5'>
                     Welcome to <span className='fw-bold' style={{color: "#9C5412"}}>EstateEase</span>, 
                     your trusted platform for finding the perfect home. 
@@ -17,7 +17,7 @@ const About = () => {
                     
                 </p>
 
-                <button className="about--btn">Read More</button>
+                <button className="about--btn py-1 px-2 w-sm-100 fw-bold fs-6 shadow">Read More</button>
 
             </div>
         </div>
