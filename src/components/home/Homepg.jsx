@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './About'
 
 const Homepg = () => {
   return (
@@ -48,6 +49,8 @@ const Homepg = () => {
 
           
         </div>
+
+        <About />
         
       </section>
     </>
