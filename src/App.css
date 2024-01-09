@@ -67,6 +67,14 @@
 }
 
 
+.about--btn {
+  border-radius: 12px 0 12px 0;
+  background-color: #9C5412;
+  color: white;
+  border: 1px solid #9C5412;
+
+}
+
 /* apartmet */
 #page1 {
   position: relative; 
