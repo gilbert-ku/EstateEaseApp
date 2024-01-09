@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About'
+import Properties from './Properties'
 
 const Homepg = () => {
   return (
@@ -50,9 +51,9 @@ const Homepg = () => {
           
         </div>
 
-        <About />
-        
       </section>
+      <About />
+      <Properties />
     </>
     
   )
