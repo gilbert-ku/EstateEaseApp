@@ -49,6 +49,12 @@ function Apartments() {
 
 
       </section>
+      <footer id='footer'>
+        <div>
+          <p>Uncover the charm of EstateEase Apartments nestled along the renowned Ngong Road and Joseph Kangethe Street in Nairobi. 
+Find your ideal home, featuring well-appointed kitchens and top-notch amenities, all within these iconic locations</p>
+        </div>
+      </footer>
     </>
    
   );

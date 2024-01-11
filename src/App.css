@@ -106,7 +106,6 @@
 
 #housecards{
   margin-top: 75px;
-  height: 100vh;
 }
 #housecard-image img{
   width: 400px;
@@ -161,4 +160,16 @@
 #buttons button:active{
   transform: scale(0.95);
   cursor: pointer;
+}
+#footer{
+  /* max-width: 700px; */
+  padding: 20px;
+  background-color: #9C5412;
+}
+#footer p{
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  color: white;
+
 }
