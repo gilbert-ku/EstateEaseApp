@@ -4,8 +4,8 @@ import Housecard from './Housecard';
 function Apartments() {
   return (
     <>
-      <section id="page1">
-        <div id="content">
+      <section id="page1" className='container-fluid'>
+        <div id="content" className='container-fluid'>
           <h1>Kingdom Apartments</h1>
           <p>Your ideal location</p>
           <p>Location: Ngong Road</p>

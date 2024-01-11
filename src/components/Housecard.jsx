@@ -16,18 +16,18 @@ function handleRent(){
 
   return (
     <>
-    <div id='housecard'>
+    <div id='housecard' >
     <div id='housecard-image'>
         <img src={props.img} alt=''></img>
     </div>
-    <div id='title'>
+    <div id='title'className="container-fluid">
         <h1>{props.title}</h1>
         <p>{props.description}</p>
-            <div id='description'>
+            <div id='description'className="container-fluid">
                 <h2>{props.rent} Starting from<span> {props.rent_amount}</span></h2>
                 <h2>{props.occupancy}</h2>
             </div>
-            <div id='buttons'>
+            <div id='buttons'className="container-fluid">
             <div>
             <Popup trigger=
                 {<button onClick={handleVisitHouse}> Book a visit </button>}
