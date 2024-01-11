@@ -24,7 +24,7 @@ function handleRent(){
         <h1>{props.title}</h1>
         <p>{props.description}</p>
             <div id='description'>
-                <h2>{props.rent} <span>{props.rent_amount}</span></h2>
+                <h2>{props.rent} Starting from<span> {props.rent_amount}</span></h2>
                 <h2>{props.occupancy}</h2>
             </div>
             <div id='buttons'>
