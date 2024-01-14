@@ -48,27 +48,32 @@ const Navbar = () => {
                   Movers
                 </a>
               </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <VscAccount />
                   Account
                   </a>
-                  <ul class="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
-                      <button className='btn'>SIGN IN</button>
+                      <a className="dropdown-item" href="#">
+                      <button 
+                      className="btn  w-100 acc--btn"
+                      style={{backgroundColor: "#9C5412", color: "white"}}
+                      >
+                        SIGN IN
+                      </button>
                       </a>
                     </li>
-                    <li><hr class="dropdown-divider" /></li>
+                    <li><hr className="dropdown-divider" /></li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                       <VscAccount />
                       My Account
                       </a>
                     </li>
                     
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                       <TfiHelpAlt />
                         Help
                       </a>
