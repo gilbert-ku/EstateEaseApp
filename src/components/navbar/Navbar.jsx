@@ -67,14 +67,14 @@ const Navbar = () => {
                     <li><hr className="dropdown-divider" /></li>
                     <li>
                       <a className="dropdown-item" href="#">
-                      <VscAccount />
+                      <VscAccount className='mx-1'/>
                       My Account
                       </a>
                     </li>
                     
                     <li>
                       <a className="dropdown-item" href="#">
-                      <TfiHelpAlt />
+                      <TfiHelpAlt className='mx-1'/>
                         Help
                       </a>
                     </li>
