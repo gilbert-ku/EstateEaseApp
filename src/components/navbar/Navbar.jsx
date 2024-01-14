@@ -1,4 +1,7 @@
 import React from 'react';
+import { VscAccount } from "react-icons/vsc";
+import { TfiHelpAlt } from "react-icons/tfi";
+
 
 const Navbar = () => {
   return (
@@ -45,16 +48,33 @@ const Navbar = () => {
                   Movers
                 </a>
               </li>
-              <li>
-                <a href="#">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <VscAccount />
+                  Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <button className='btn'>SIGN IN</button>
+                      </a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <VscAccount />
+                      My Account
+                      </a>
+                    </li>
                     
-                <select id="disabledSelect" className="form-select">
-                    <option>Apartment</option>
-                    <option>Bungalow</option>
-                    <option>Mansion</option>
-                </select>
-                </a>
-              </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <TfiHelpAlt />
+                        Help
+                      </a>
+                    </li>
+                  </ul>
+                </li>
             </ul>
           </div>
         </div>
