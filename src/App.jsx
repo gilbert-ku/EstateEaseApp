@@ -9,6 +9,7 @@ import Movers from './components/movers/Movers';
 import Help from "./components/account/Help";
 import SignUp from './components/account/SignUp';
 import MyAccount from './components/account/MyAccount'
+import Footer from './components/navbar/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/myaccount" element={<MyAccount />} />
         <Route path="/help" element={<Help />} />
       </Routes>
+      <Footer />
       
 
     </>
