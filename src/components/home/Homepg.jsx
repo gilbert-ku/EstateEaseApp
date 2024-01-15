@@ -8,7 +8,7 @@ const Homepg = () => {
   return (
     <>
       <section className='landing--page '>
-        <div className='container-fuild d-flex align-items-center justify-content-center landing--image'>
+        <div className='container-fuild d-flex align-items-center justify-content-center landing--image mx-auto'>
         
             <div className='warning search--box'>
               <p className='mt-1 p-1 text-center fs-1 fw-bold ' style={{color: "#9C5412"}}>
