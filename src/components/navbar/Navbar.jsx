@@ -9,7 +9,6 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            
             <p className='ms-sm-5 fs-3 fw-bold my-auto'
             style={{color: "#9C5412"}}>
               EstateEase
