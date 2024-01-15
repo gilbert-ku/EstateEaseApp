@@ -1,13 +1,13 @@
 import React from 'react';
 import { VscAccount } from "react-icons/vsc";
 import { TfiHelpAlt } from "react-icons/tfi";
-import { BrowserRouter as Router,  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
 const Navbar = () => {
   return (
-    <Router>
+    
       <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
@@ -49,23 +49,22 @@ const Navbar = () => {
                   </Link >
                 </li>
                 <li className="nav-item">
-                  <Link to="/property" className="nav-link active" >
+                  <Link to="/apartments" className="nav-link active" >
                     Property
                   </Link >
                 </li>
                 <li className="nav-item">
-                  <Link to="/movers" className="nav-link  active"  tabIndex="-1" aria-disabled="true">
-                    Movers
-                  </Link >
+                <Link to="/movers" className="nav-link active" tabIndex={-1} aria-disabled="true">
+                  Movers
+                </Link>
                 </li>
                 <li className="nav-item dropdown">
                     <Link to="account" className="nav-link dropdown-toggle active"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <VscAccount />
                     Account
                     </Link >
                     <ul className="dropdown-menu">
                       <li>
-                        <Link to="sign in" className="dropdown-item" >
+                        <Link to="signin" className="dropdown-item" >
                         <button 
                         className="btn  w-100 acc--btn"
                         style={{backgroundColor: "#9C5412", color: "white"}}
@@ -76,7 +75,7 @@ const Navbar = () => {
                       </li>
                       <li><hr className="dropdown-divider" /></li>
                       <li>
-                        <Link to="my account" className="dropdown-item" >
+                        <Link to="myaccount" className="dropdown-item" >
                         <VscAccount className='mx-1'/>
                         My Account
                         </Link >
@@ -95,7 +94,7 @@ const Navbar = () => {
           </div>
         </nav>
       </>
-    </Router>
+
   );
 };
 
