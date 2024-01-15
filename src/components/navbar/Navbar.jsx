@@ -1,6 +1,8 @@
 import React from 'react';
 import { VscAccount } from "react-icons/vsc";
 import { TfiHelpAlt } from "react-icons/tfi";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 
 
 const Navbar = () => {
