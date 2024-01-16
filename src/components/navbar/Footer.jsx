@@ -7,22 +7,21 @@ const Footer = () => {
   return (
     <>
         <div className=' footer--div mx-auto rounded-4'>
-          <div className=' d-flex text-white justify-content-between'>
+          <div className=' d-sm-flex text-white justify-content-between'>
             <div className=''>
-              <p className='fs-1 ms-5 text-white fw-bold'>EstateEase</p>
-              <p className='fs-4 ms-5 text-white ' >Subscribe for EstateEase updates </p>
+              <p className='fs-1  mx-5 text-white fw-bold'>EstateEase</p>
+              <p className='fs-4  mx-5 text-white ' >Subscribe for EstateEase updates </p>
               <div className='m-5 mt-2'>
                 <form>
-                  <div class="mb-3 d-md-flex border border-white p-3 rounded-3">
-                    <label></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                    <button type="submit" class="btn btn-primary ms-2">Submit</button>
+                  <div class="mb-2 d-md-flex border border-white p-3 rounded-3">
+                    <input type="email" class="form-control" placeholder="email address" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <button type="submit" class="btn btn-primary my-2">Submit</button>
                   </div>
                 </form>
               </div>
             </div>
 
-            <div className='quiz-link mt-3 me-5'>
+            <div className='quiz-link mt-3 mx-5'>
               <p className='fs-5'>Quick Links</p>
               <ul>
                 <li>About us</li>
@@ -32,16 +31,16 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='mt-3 me-5'>
+            <div className='mt-3 mx-5'>
               <p className='fs-5'>Useful Link</p>
 
               <ul>
                 <li>Private Policy</li>
                 <li>User Agreement</li>
                 <li>Frequently Asked Question</li>
-                <li>
+                
                   <button type="button" class="btn btn-outline-dark">Dark</button>
-                </li>
+                
               </ul>
             </div>
 
@@ -50,12 +49,12 @@ const Footer = () => {
 
           <hr className=' hr--footer mx-auto ' />
 
-            <div className='d-flex text-white justify-content-between'>
+            <div className='d-sm-flex text-white justify-content-between'>
               <div className='ms-5 fs-6' >
                 <p>© 2024 EstateEase. All rights reserved.</p>
               </div>
 
-              <div className='me-5 '>
+              <div className='mx-5 '>
                 <a href="#">
                   <FaWhatsapp className='mx-2 fs-4'/>
                 </a>
