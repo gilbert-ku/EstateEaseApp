@@ -22,7 +22,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='quiz-link'>
+            <div className='quiz-link mt-3 me-5'>
               <p className='fs-5'>Quick Links</p>
               <ul>
                 <li>About us</li>
@@ -32,7 +32,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            <div className='mt-3 me-5'>
               <p className='fs-5'>Useful Link</p>
 
               <ul>
@@ -47,7 +47,8 @@ const Footer = () => {
 
             
           </div>
-          <hr className=' hr--footer mx-auto'/>
+
+          <hr className=' hr--footer mx-auto ' />
 
             <div className='d-flex text-white justify-content-between'>
               <div className='ms-5 fs-6' >
