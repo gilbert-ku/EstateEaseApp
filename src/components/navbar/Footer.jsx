@@ -1,10 +1,13 @@
 import React from 'react'
+import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
     <>
-        <div className='container-fluid '>
-          <div className='footer--div mx-auto rounded-4'>
+        <div className=' footer--div mx-auto rounded-4'>
+          <div className=' d-flex text-white justify-content-between'>
             <div className=''>
               <p className='fs-1 ms-5 text-white fw-bold'>EstateEase</p>
               <p className='fs-4 ms-5 text-white ' >Subscribe for EstateEase updates </p>
@@ -37,11 +40,38 @@ const Footer = () => {
                 <li>User Agreement</li>
                 <li>Frequently Asked Question</li>
                 <li>
-                  <button className='btn '>Find Movers</button>
+                  <button type="button" class="btn btn-outline-dark">Dark</button>
                 </li>
               </ul>
             </div>
+
+            
           </div>
+          <hr className=' hr--footer mx-auto'/>
+
+            <div className='d-flex text-white justify-content-between'>
+              <div className='ms-5 fs-6' >
+                <p>© 2024 EstateEase. All rights reserved.</p>
+              </div>
+
+              <div className='me-5 '>
+                <a href="#">
+                  <FaWhatsapp className='mx-2 fs-4'/>
+                </a>
+                <a href="#">
+                  <FaFacebook className='mx-2 fs-4'/>
+                </a>
+                <a href="#">
+                  <FaInstagram className='mx-2 fs-4'/>
+                </a>
+                <a href="#">
+                  <FaXTwitter className='mx-2 fs-4'/>
+                </a>
+                <a href="#">
+                  <FaTiktok className='mx-2 fs-4'/>
+                </a>  
+              </div>
+            </div>
         </div>
         
     </>
