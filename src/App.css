@@ -14,8 +14,15 @@
 
 .footer--div {
   width: 96vw;
-  min-height: 500px;
+  /* min-height: 500px; */
   background-color: #9C5412;
+}
+
+.hr--footer {
+  width: 80vw;
+  border-width: 0.2rem;
+  color: white;
+  
 }
 
 .landing--image {
