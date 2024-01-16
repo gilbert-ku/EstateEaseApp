@@ -6,16 +6,16 @@ import { FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-        <div className=' footer--div mx-auto rounded-4'>
+        <div className=' footer--div mx-auto rounded-4 mt-3'>
           <div className=' d-sm-flex text-white justify-content-between'>
             <div className=''>
               <p className='fs-1  mx-5 text-white fw-bold'>EstateEase</p>
               <p className='fs-4  mx-5 text-white ' >Subscribe for EstateEase updates </p>
-              <div className='m-5 mt-2'>
+              <div className='mx-5 mt-2'>
                 <form>
                   <div class="mb-2 d-md-flex border border-white p-3 rounded-3">
-                    <input type="email" class="form-control" placeholder="email address" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                    <button type="submit" class="btn btn-primary my-2">Submit</button>
+                    <input type="email" class="form-control no--border" placeholder="email address" id="exampleInputEmail1" aria-describedby="emailHelp" style={{border: "none"}}/>
+                    <button type="submit" class="btn btn-primary  ">Submit</button>
                   </div>
                 </form>
               </div>
