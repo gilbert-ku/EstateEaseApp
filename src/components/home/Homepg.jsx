@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About'
 import Properties from './Properties'
+import Footer from '../navbar/Footer'
 
 
 
@@ -56,6 +57,7 @@ const Homepg = () => {
       </section>
       <About />
       <Properties/>
+      <Footer />
 
     </>
     

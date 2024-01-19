@@ -13,9 +13,13 @@ const Footer = () => {
               <p className='fs-4  mx-5 text-white ' >Subscribe for EstateEase updates </p>
               <div className='mx-5 mt-2'>
                 <form>
-                  <div class="mb-2 d-md-flex border border-white p-3 rounded-3">
-                    <input type="email" class="form-control no--border" placeholder="email address" id="exampleInputEmail1" aria-describedby="emailHelp" style={{border: "none"}}/>
-                    <button type="submit" class="btn btn-primary  ">Submit</button>
+                  <div className="mb-2 d-md-flex border border-white p-3 rounded-3">
+                    <input type="email" className="form-control no--border" placeholder="email address" id="exampleInputEmail1" aria-describedby="emailHelp" style={{border: "none"}}/>
+                    <div>
+  <button type="submit" className="btn w-md-100 btn-primary ms-2 ms-md-0 mt-md-2">
+    subscribe
+  </button>
+</div>
                   </div>
                 </form>
               </div>
@@ -23,23 +27,29 @@ const Footer = () => {
 
             <div className='quiz-link mt-3 mx-5'>
               <p className='fs-5'>Quick Links</p>
-              <ul>
-                <li>About us</li>
-                <li>contact Us</li>
-                <li>Properties</li>
-                <li>Find Help</li>
+              <ul className='navbar-nav'>
+                <li className="nav-item" >About us</li>
+                <li className="nav-item" >contact Us</li>
+                <li className="nav-item" >Properties</li>
+                <li className="nav-item" >Find Help</li>
               </ul>
             </div>
 
             <div className='mt-3 mx-5'>
               <p className='fs-5'>Useful Link</p>
 
-              <ul>
-                <li>Private Policy</li>
-                <li>User Agreement</li>
-                <li>Frequently Asked Question</li>
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  Private Policy
+                </li>
+                <li className="nav-item">
+                  User Agreement
+                </li>
+                <li className="nav-item">
+                  Frequently Asked Question
+                </li>
                 
-                  <button type="button" class="btn btn-outline-dark">Dark</button>
+                  <button type="button" className="btn btn-outline-dark">Find mover</button>
                 
               </ul>
             </div>
