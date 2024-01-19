@@ -12,6 +12,53 @@
 
 }
 
+.sub-section{
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.subscribe--btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.quick--link  a{
+  color: white;
+  text-decoration: none;
+}
+
+.quick--link  
+  a:hover {
+    text-decoration: underline;
+    color: black;
+    font-family: 700;
+    font-size: 1.2rem;
+  }
+
+.useful--link a{
+  color: white;
+  text-decoration: none;
+}
+
+.useful--link 
+  a:hover {
+    color: black;
+    font-family: 700;
+    text-decoration: underline;
+  }
+
+.social--media a{
+  color: white;
+  text-decoration: none;
+}
+
+.social--media 
+  a:hover{
+    color: black;
+    font-family: 700;
+  }
+
+
 .footer--div {
   width: 96vw;
   /* min-height: 500px; */

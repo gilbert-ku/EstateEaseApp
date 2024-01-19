@@ -11,12 +11,12 @@ const Navbar = () => {
       <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <Link to="/" className="navbar-brand">
               <p className='ms-sm-5 fs-3 fw-bold my-auto'
               style={{color: "#9C5412"}}>
                 EstateEase
               </p>
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -30,21 +30,24 @@ const Navbar = () => {
             </button>
             <div className="offcanvas offcanvas-start navbar-collapse " data-bs-scroll="true" tabIndex="-1"  aria-labelledby="offcanvasWithBothOptionsLabel" id="navbarNav">
             <div className="offcanvas-header">
-                  <h5 className="offcanvas-title ms-sm-5 fs-3 fw-bold my-auto" 
-                  id="offcanvasWithBothOptionsLabel"
-                  style={{color: "#9C5412"}}>
-                    EstateEase
-                  </h5>
+                  <Link to="/">
+                    <h5 className="offcanvas-title ms-sm-5 fs-3 fw-bold my-auto navbar-brand" 
+                    id="offcanvasWithBothOptionsLabel"
+                    style={{color: "#9C5412"}}>
+                      EstateEase
+                    </h5>
+                  </Link>
+                  
                   <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <ul className="navbar-nav">
+              <ul className="navbar-nav ">
                 <li className="nav-item">
                   <Link to="/" className="nav-link active" aria-current="page" >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link  to="/about us" className="nav-link active" >
+                  <Link  to="/aboutus" className="nav-link active" >
                     About us
                   </Link >
                 </li>
@@ -54,9 +57,9 @@ const Navbar = () => {
                   </Link >
                 </li>
                 <li className="nav-item">
-                <Link to="/movers" className="nav-link active" tabIndex={-1} aria-disabled="true">
-                  Movers
-                </Link>
+                  <Link to="/movers" className="nav-link active" tabIndex={-1} aria-disabled="true">
+                    Movers
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
                     <Link to="account" className="nav-link dropdown-toggle active"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -76,7 +79,7 @@ const Navbar = () => {
                       <li><hr className="dropdown-divider" /></li>
                       <li>
                         <Link to="myaccount" className="dropdown-item" >
-                        <VscAccount className='mx-1'/>
+                        <VscAccount className='mx-1 text-white'/>
                         My Account
                         </Link >
                       </li>
