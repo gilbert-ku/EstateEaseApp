@@ -135,7 +135,14 @@
 
 
 .boot--slides {
-  height: 200px;
+  min-height: 40rem;
+  border-radius: 1rem;
+  width: 40vw;
+}
+
+.boot--slides img {
+  height: 35rem;
+  border-radius: 1rem;
 }
 
 /* apartmet */
