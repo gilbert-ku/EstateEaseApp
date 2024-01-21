@@ -79,7 +79,7 @@ const Navbar = () => {
                       <li><hr className="dropdown-divider" /></li>
                       <li>
                         <Link to="myaccount" className="dropdown-item" >
-                        <VscAccount className='mx-1 text-white'/>
+                        <VscAccount className='mx-1 '/>
                         My Account
                         </Link >
                       </li>

@@ -49,9 +49,6 @@ const Homepg = () => {
               </div>
               
             </div>
-          
-
-          
         </div>
 
       </section>

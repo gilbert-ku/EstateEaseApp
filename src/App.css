@@ -133,6 +133,11 @@
 
 }
 
+
+.boot--slides {
+  height: 200px;
+}
+
 /* apartmet */
 #page1 {
   position: relative; 
