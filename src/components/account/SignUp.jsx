@@ -7,8 +7,8 @@ import lavington from '/lavington-apt.jpg';
 const SignUp = () => {
   return (
     <>
-      <div className="container d-md-flex justify-content-center align-items-center">
-        <div className="sign--form me-5">
+      <div className="container d-md-flex justify-content-center align-items-center ">
+        <div className="sign--form me-md-5 ">
           <p className="fs-1">
             Welcome To <span className="fs-1 " style={{ color: '#9C5412' }}>EstateEase</span>
           </p>
