@@ -8,13 +8,13 @@ import kitchen from '/Kitchen.jpeg';
 const homeDash = () => {
   return (
     <>
-    <div className="container d-flex">
-      <div className="d-none d-md-block">
+    <div className="container d-md-flex">
+      <div className=" d-md-block">
             <div
               id="carouselExampleCaptions"
               className="carousel slide mt-md-5"
               data-bs-ride="carousel"
-              style={{width: "30vw"}}
+              // style={{width: "30vw"}}
             >
               <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -62,7 +62,7 @@ const homeDash = () => {
             </div>
       </div>
 
-      <div>
+      <div className='d-flex justify-center align-canter m-auto'>
         <button className="btn btn-secondary">Rent our Specious houses to day</button>
       </div>
     </div>
