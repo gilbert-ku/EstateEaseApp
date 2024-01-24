@@ -31,11 +31,11 @@ function App() {
         <Route path="/myaccount" element={<MyAccount />} />
         <Route path="/help" element={<Help />} />
       </Routes>
-      {/* <Footer /> */}
-      
+      {/* <Footer /> */}      
 
     </>
   )
 }
 
 export default App
+
