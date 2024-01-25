@@ -3,16 +3,21 @@ import birthroom from '/birthroom.jpeg';
 import seatingone from '/seatingroom .jpeg';
 import seatingtwo from '/seatingroom2 .jpeg';
 import kitchen from '/Kitchen.jpeg';
+import SideNavBar from '../dash-navbar/SideNavBar';
 
 
 const homeDash = () => {
   return (
     <>
-    <div className="container d-md-flex">
+    <section className='fluid  d-flex' >
+    <div className='bg-secondary' style={{width: "15vw"}}>
+      <SideNavBar />
+    </div>
+    <div className="container  d-md-flex">
       <div className=" d-md-block">
             <div
               id="carouselExampleCaptions"
-              className="carousel slide mt-md-5"
+              className="carousel slide mt-md-5 dashboard-carousel"
               data-bs-ride="carousel"
               // style={{width: "30vw"}}
             >
@@ -63,9 +68,10 @@ const homeDash = () => {
       </div>
 
       <div className='d-flex justify-center align-canter m-auto'>
-        <button className="btn btn-secondary">Rent our Specious houses to day</button>
+        <button className="btn btn-secondary color-white">Rent our Specious houses to day</button>
       </div>
     </div>
+    </section>
     </>
   )
 }
