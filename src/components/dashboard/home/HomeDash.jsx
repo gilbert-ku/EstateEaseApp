@@ -10,7 +10,7 @@ const homeDash = () => {
   return (
     <>
     <section className='fluid  d-flex' >
-    <div className='bg-secondary' style={{width: "15vw"}}>
+    <div className='px-3 ' style={{backgroundColor: "#9C5412",}}>
       <SideNavBar />
     </div>
     <div className="container  d-md-flex">
@@ -68,7 +68,10 @@ const homeDash = () => {
       </div>
 
       <div className='d-flex justify-center align-canter m-auto'>
+        <div className=''>
+        {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis illum voluptatibus corrupti, consequatur earum dolorum vitae nulla? Aspernatur laboriosam earum tenetur eveniet non, harum assumenda quos, quo rerum necessitatibus quaerat.</p> */}
         <button className="btn btn-secondary color-white">Rent our Specious houses to day</button>
+        </div>
       </div>
     </div>
     </section>
