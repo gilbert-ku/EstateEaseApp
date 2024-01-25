@@ -22,7 +22,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/Dashboard" className="nav-link text-white">
+          <Link to="/edit-profile" className="nav-link text-white">
             <span className="icon-name">
               <CiEdit className='me-1'/>
               <span className="d-none d-md-inline">Edit Profile</span>
@@ -67,7 +67,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/reviews" className="nav-link text-white">
+          <Link to="/logout" className="nav-link text-white">
             <span className="icon-name">
               <HiOutlineLogout className='me-1'/>
               <span className="d-none d-md-inline">Log Out</span>
@@ -80,3 +80,5 @@ const SideNavBar = () => {
 };
 
 export default SideNavBar;
+
+SideNavBar.js
