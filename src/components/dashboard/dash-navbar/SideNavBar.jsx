@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { MdOutlineDashboardCustomize, MdOutlineReviews } from "react-icons/md";
 import { BsHouses } from "react-icons/bs";
 import { IoReceiptOutline } from "react-icons/io5";
@@ -8,29 +9,51 @@ const SideNavBar = () => {
   return (
 
     <>
-      <nav>
-        <ul>
-          <li>
-            <span>
-            <MdOutlineDashboardCustomize />
+      <nav className="navbar ">
+        <ul className="navbar-nav">
+
+          <li className="nav-item ">
+            <Link to="/Dashboard" className="nav-link text-white">
+              <span className="me-1">
+                <MdOutlineDashboardCustomize />
+              </span>
+              Dashboard
+            </Link>
+          </li>
+
+          <li className="nav-item"> 
+            <Link to="/property" className="nav-link text-white">
+              <span className="me-1">
+                <BsHouses />
+              </span>
+              Property
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/receipt" className="nav-link text-white">
+              <span className="me-1">
+                <IoReceiptOutline />
+              </span>
+              Receipt
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/contactUs" className="nav-link text-white">
+              <span className="me-1">
+                <AiOutlineMessage />
+              </span>
+              Contact Us
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/revies" className="nav-link text-white">
+            <span className="me-1">
+              <MdOutlineReviews />
             </span>
-            Dashboard
-          </li>
-          <li>
-            <span><BsHouses /></span>
-            Property
-          </li>
-          <li>
-            <span><IoReceiptOutline /></span>
-            Receipt
-          </li>
-          <li>
-            <span><AiOutlineMessage /></span>
-            Contact Us
-          </li>
-          <li>
-            <span><MdOutlineReviews /></span>
-            Reviews
+              Reviews
+            </Link>
           </li>
         </ul>
       </nav>
