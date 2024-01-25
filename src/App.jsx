@@ -11,6 +11,7 @@ import SignUp from './components/account/SignUp';
 import MyAccount from './components/account/MyAccount'
 import HomeDash from './components/dashboard/home/HomeDash';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavbarDash from './components/dashboard/dash-navbar/NavbarDash';
 
 
 
@@ -21,7 +22,7 @@ function App() {
     <>
       
       
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Routes>
         <Route path="/" element={<Homepg />} />
         <Route path="/aboutus" element={<About />} />
@@ -31,6 +32,7 @@ function App() {
         <Route path="/myaccount" element={<MyAccount />} />
         <Route path="/help" element={<Help />} />
       </Routes> */}
+      <NavbarDash />
       <HomeDash />    
 
     </>

@@ -93,6 +93,13 @@
   
 }
 
+
+/* dashboard */
+
+.dashboard-carousel img{
+  height: 80vh;
+}
+
 @media (min-width: 768px) {
   .search--box {
     width: 60vw;
