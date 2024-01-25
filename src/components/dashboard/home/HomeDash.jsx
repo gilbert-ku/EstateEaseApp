@@ -13,11 +13,11 @@ const homeDash = () => {
     <div className='px-3 ' style={{backgroundColor: "#9C5412",}}>
       <SideNavBar />
     </div>
-    <div className="container  d-md-flex">
+    <div className="d-md-flex">
       <div className=" d-md-block">
             <div
               id="carouselExampleCaptions"
-              className="carousel slide mt-md-5 dashboard-carousel"
+              className="carousel slide dashboard-carousel"
               data-bs-ride="carousel"
               // style={{width: "30vw"}}
             >

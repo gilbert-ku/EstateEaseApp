@@ -1,10 +1,10 @@
 import React from 'react'
 import { IoNotificationsSharp } from "react-icons/io5";
 import { VscAccount } from "react-icons/vsc";
-import { HiOutlineLogout } from "react-icons/hi";
 import { IoSettingsOutline } from "react-icons/io5";
-import { CiEdit } from "react-icons/ci";
 import { Link } from 'react-router-dom';
+import { TfiHelpAlt } from "react-icons/tfi";
+
 
 
 
@@ -36,12 +36,12 @@ const NavbarDash = () => {
                     gilbert45ku
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
+                    {/* <li>
                         <a className="dropdown-item" href="#">
                         <span><CiEdit /></span>
                             Edit Profile
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="dropdown-item" href="#">
                             <span><IoSettingsOutline /></span>
@@ -51,8 +51,8 @@ const NavbarDash = () => {
                     <li><hr className="dropdown-divider"/></li>
                     <li>
                         <a className="dropdown-item" href="#">
-                        <span><HiOutlineLogout /></span>
-                        Log Out
+                        <span><TfiHelpAlt /></span>
+                        Find Help
                         </a>
                     </li>
                 </ul>
