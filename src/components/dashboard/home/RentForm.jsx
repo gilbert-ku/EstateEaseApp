@@ -119,11 +119,12 @@ const RentForm = () => {
                     <div className="mb-3 form-check">
                         <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                         <input type="checkbox" className="form-check-input" id="exampleCheck1" required/>
-                        <label className="form-check-label" htmlFor="exampleCheck1">
+                        <label className="form-check-label t---cs" htmlFor="exampleCheck1">
                             <Link to="/T&Cs">Terms and Conditions</Link>
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary w-100 ">Submit</button>
+                    <button type="submit" className="btn  w-100 text-white mb-2"
+                    style={{backgroundColor: "#9C5412"}}>Submit</button>
                 </form>
             </div>
              
