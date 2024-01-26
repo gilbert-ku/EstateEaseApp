@@ -17,7 +17,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/Dashboard" className="nav-link text-white">
             <span className="icon-name">
-              <MdOutlineDashboardCustomize className='me-1'/>
+              <MdOutlineDashboardCustomize className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Dashboard</span>
             </span>
           </Link>
@@ -26,7 +26,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/edit-profile" className="nav-link text-white">
             <span className="icon-name">
-              <CiEdit className='me-1'/>
+              <CiEdit className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Edit Profile</span>
             </span>
           </Link>
@@ -36,7 +36,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/invoice" className="nav-link text-white">
             <span className="icon-name ">
-              <FaFileInvoiceDollar className='me-1 '/>
+              <FaFileInvoiceDollar className='me-1 fs-5 fs-md-3 '/>
               <span className="d-none d-md-inline">Invoice</span>
             </span>
           </Link>
@@ -45,7 +45,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/payments" className="nav-link text-white">
             <span className="icon-name ">
-              <MdOutlinePayments className='me-1 '/>
+              <MdOutlinePayments className='me-1 fs-5 fs-md-3 '/>
               <span className="d-none d-md-inline">Payments</span>
             </span>
           </Link>
@@ -54,7 +54,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/receipt" className="nav-link text-white">
             <span className="icon-name">
-              <IoReceiptOutline className='me-1'/>
+              <IoReceiptOutline className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Receipt</span>
             </span>
           </Link>
@@ -63,7 +63,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/contactUs" className="nav-link text-white">
             <span className="icon-name">
-              <AiOutlineMessage className='me-1'/>
+              <AiOutlineMessage className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Contact Us</span>
             </span>
           </Link>
@@ -72,7 +72,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/reviews" className="nav-link text-white">
             <span className="icon-name">
-              <MdOutlineReviews className='me-1'/>
+              <MdOutlineReviews className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Reviews</span>
             </span>
           </Link>
@@ -81,7 +81,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/logout" className="nav-link text-white">
             <span className="icon-name">
-              <HiOutlineLogout className='me-1'/>
+              <HiOutlineLogout className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Log Out</span>
             </span>
           </Link>

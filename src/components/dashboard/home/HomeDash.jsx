@@ -14,14 +14,20 @@ const homeDash = () => {
 ];
   return (
     <>
-    <section className='fluid d-flex ' >
-      <div className='px-3' style={{backgroundColor: "#9C5412"}}>
+    <section className='fluid  d-flex' >
+      <div className='px-1 px-sm-5' style={{backgroundColor: "#9C5412"}}>
         <SideNavBar />
       </div>
+
+      <div className='container mx-0 mx-md-5 my-1 mt-md-4'>
+        <p className='fs-4'>Welcome, Gilbert Owino!</p>
+        <p className='fs-5'>Experience Luxury Living with <span className='fs-4' style={{color: "#9C5412"}}>EstateEase</span></p>
       <div className=" d-sm-flex">
+        
         {/*  slide*/}
 
-        <div className="responsive-container mx-1">
+        <div className="responsive-container ">
+        
           <Zoom scale={0.7} indicators={true}>
             {images.map((each, index) => (
               <div key={index} className="responsive-item mx-1">
@@ -31,11 +37,19 @@ const homeDash = () => {
           </Zoom>
         </div>
 
-        <div className='w-100 w-sm-50 text-center'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi temporibus incidunt porro obcaecati similique, minima, maiores corrupti perspiciatis neque quaerat error laudantium omnis, nisi nemo amet sequi dolor molestiae.</p>
-          <button className="btn btn-secondary color-white">Rent our Specious houses to day</button>
+        <div className='w-100 w-sm-50 mx-0 mx-md-5 my-1 mt-md-4'>
+          
+          <p>Discover a new level of elegance and comfort with EstateEase. Rent our spacious houses for an unparalleled living experience.</p>
+          <p>Enjoy hassle-free payments through our secure app. Receive invoices before your rental period and instant receipts upon payment.</p>
+          <button className="btn btn-primary color-white">Rent Our Spacious Houses</button>
+
+
+          {/* <button className="btn btn-secondary color-white">Rent our Specious houses to day</button> */}
         </div>
       </div>
+
+      </div>
+      
     </section>
     </>
   )
