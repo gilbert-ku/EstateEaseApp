@@ -11,6 +11,8 @@ import SignUp from './components/account/SignUp';
 import MyAccount from './components/account/MyAccount'
 import HomeDash from './components/dashboard/home/HomeDash';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import RentForm from './components/dashboard/home/RentForm';
+
 // import NavbarDash from './components/dashboard/dash-navbar/NavbarDash';
 
 
@@ -33,7 +35,8 @@ function App() {
         <Route path="/help" element={<Help />} />
       </Routes> */}
       {/* <NavbarDash /> */}
-      <HomeDash />    
+      {/* <HomeDash />     */}
+      <RentForm />
 
     </>
   )
