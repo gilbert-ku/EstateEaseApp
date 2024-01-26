@@ -95,10 +95,23 @@
 
 
 /* dashboard */
-
-.dashboard-carousel img{
-  height: 50vh;
+.responsive-container {
+  width: 82vw;
+  
 }
+
+.responsive-container img {
+  border-radius: 1rem;
+
+}
+
+
+@media (min-width: 576px) {
+  .responsive-container {
+    width: 20vw;
+  }
+}
+
 
 @media (min-width: 768px) {
   .search--box {
