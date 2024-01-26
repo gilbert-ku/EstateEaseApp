@@ -2,6 +2,8 @@ import React from 'react'
 import SideNavBar from '../dash-navbar/SideNavBar';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import NavbarDash from '../dash-navbar/NavbarDash';
+
 
 
 const homeDash = () => {
@@ -14,13 +16,14 @@ const homeDash = () => {
 ];
   return (
     <>
-    <section className='fluid  d-flex' >
-      <div className='px-1 px-sm-5' style={{backgroundColor: "#9C5412"}}>
+    <section className='fluid  home--dash d-flex' >
+      <div className='px-1 px-sm-5 side--bar' style={{backgroundColor: "#9C5412"}}>
         <SideNavBar />
       </div>
 
       <div className='container mx-0 mx-md-5 my-1 mt-md-4'>
-        <p className='fs-4'>Welcome, Gilbert Owino!</p>
+        <NavbarDash />
+        <p className='fs-4 mt-3'>Welcome, Gilbert Owino!</p>
         <p className='fs-5'>Experience Luxury Living with <span className='fs-4' style={{color: "#9C5412"}}>EstateEase</span></p>
       <div className=" d-sm-flex">
         

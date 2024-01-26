@@ -11,7 +11,7 @@ import { TfiHelpAlt } from "react-icons/tfi";
 const NavbarDash = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div className="container-fluid mx-auto me-0 me-sm-5 ">
 
                 {/* Logo on the left */}
