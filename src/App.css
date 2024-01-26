@@ -95,6 +95,10 @@
 
 
 /* dashboard */
+.home--dash {
+  height: 100vh;
+}
+
 .responsive-container {
   width: 82vw;
   
@@ -105,10 +109,34 @@
 
 }
 
+.side--bar {
+  width: auto;
+  /* height: 100vh; */
+}
+.my-custom--link a{
+  color: white;
+  border-radius: .8rem;
+}
+.my-custom--link a:hover{
+  background-color: white;
+  color: #9C5412;
+  padding: .5rem;
+  text-align: center;
+  border-radius: .8rem;
+  box-shadow: 0 0 20px rgba(245, 242, 242, 0.5);  
+  transition: background-color 0.5s, color 0.5s;
+  font-weight: 700; 
+}
 
 @media (min-width: 576px) {
   .responsive-container {
-    width: 20vw;
+    width: 25vw;
+  }
+  .side--bar {
+    width: 15vw;
+    /* height: 100vh; */
+    box-shadow: 0 0 1rem 0 #0c0b0a;  
+
   }
 }
 
