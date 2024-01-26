@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MdOutlineDashboardCustomize, MdOutlineReviews } from 'react-icons/md';
+import { MdOutlineDashboardCustomize, MdOutlineReviews,MdOutlinePayments, MdEdit } from 'react-icons/md';
 import { IoReceiptOutline } from 'react-icons/io5';
 import { AiOutlineMessage } from 'react-icons/ai';
-import { CiEdit } from "react-icons/ci";
 import { HiOutlineLogout } from "react-icons/hi";
 import { FaFileInvoiceDollar } from "react-icons/fa";
-import { MdOutlinePayments } from "react-icons/md";
 
 
 const SideNavBar = () => {
@@ -17,7 +15,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/Dashboard" className="nav-link text-white">
             <span className="icon-name">
-              <MdOutlineDashboardCustomize className='me-1 fs-5 fs-md-3'/>
+              <MdOutlineDashboardCustomize className='me-1 fs-5 fs-md-'/>
               <span className="d-none d-md-inline">Dashboard</span>
             </span>
           </Link>
@@ -26,7 +24,7 @@ const SideNavBar = () => {
         <li className="nav-item">
           <Link to="/edit-profile" className="nav-link text-white">
             <span className="icon-name">
-              <CiEdit className='me-1 fs-5 fs-md-3'/>
+              <MdEdit className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Edit Profile</span>
             </span>
           </Link>

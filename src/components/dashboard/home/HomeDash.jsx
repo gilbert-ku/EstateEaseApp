@@ -37,15 +37,18 @@ const homeDash = () => {
           </Zoom>
         </div>
 
-        <div className='w-100 w-sm-50 mx-0 mx-md-5 my-1 mt-md-4'>
-          
-          <p>Discover a new level of elegance and comfort with EstateEase. Rent our spacious houses for an unparalleled living experience.</p>
-          <p>Enjoy hassle-free payments through our secure app. Receive invoices before your rental period and instant receipts upon payment.</p>
-          <button className="btn btn-primary color-white">Rent Our Spacious Houses</button>
-
-
-          {/* <button className="btn btn-secondary color-white">Rent our Specious houses to day</button> */}
+        <div className='d-flex justify-center align-center mx-0 mx-md-5 my-1 mt-md-4 '>
+          <div className='my-auto'>
+            <p className='w-100 w-md-75'>
+              EstateEase provides elegant and spacious houses for an unparalleled living experience. 
+              Our secure app makes hassle-free payments easy with invoices before your rental period and instant receipts upon payment.
+            </p>
+            <button className="btn mt-1  w-100 w-sm-25" style={{ backgroundColor: "#9C5412", color: "white" }}>
+              Rent Our Spacious Houses
+            </button>
+          </div>
         </div>
+
       </div>
 
       </div>
