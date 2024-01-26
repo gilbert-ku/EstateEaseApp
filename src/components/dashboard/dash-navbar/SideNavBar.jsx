@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdOutlineDashboardCustomize, MdOutlineReviews } from 'react-icons/md';
-import { BsHouses } from 'react-icons/bs';
 import { IoReceiptOutline } from 'react-icons/io5';
 import { AiOutlineMessage } from 'react-icons/ai';
 import { CiEdit } from "react-icons/ci";
 import { HiOutlineLogout } from "react-icons/hi";
+import { FaFileInvoiceDollar } from "react-icons/fa";
+import { MdOutlinePayments } from "react-icons/md";
 
 
 const SideNavBar = () => {
   return (
     <nav className="navbar">
+      
       <ul className="navbar-nav">
         <li className="nav-item">
           <Link to="/Dashboard" className="nav-link text-white">
@@ -30,11 +32,21 @@ const SideNavBar = () => {
           </Link>
         </li>
 
+
         <li className="nav-item">
-          <Link to="/property" className="nav-link text-white">
+          <Link to="/invoice" className="nav-link text-white">
             <span className="icon-name ">
-              <BsHouses className='me-1 '/>
-              <span className="d-none d-md-inline">Property</span>
+              <FaFileInvoiceDollar className='me-1 '/>
+              <span className="d-none d-md-inline">Invoice</span>
+            </span>
+          </Link>
+        </li>
+
+        <li className="nav-item">
+          <Link to="/payments" className="nav-link text-white">
+            <span className="icon-name ">
+              <MdOutlinePayments className='me-1 '/>
+              <span className="d-none d-md-inline">Payments</span>
             </span>
           </Link>
         </li>
