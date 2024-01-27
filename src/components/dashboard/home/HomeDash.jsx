@@ -47,7 +47,7 @@ const homeDash = () => {
               EstateEase provides elegant and spacious houses for an unparalleled living experience. 
               Our secure app makes hassle-free payments easy with invoices before your rental period and instant receipts upon payment.
             </p>
-            <Link to="/tenant-form" target='blank'>
+            <Link to="/form" target='blank'>
               <button className="btn mt-1  w-100 w-sm-25" style={{ backgroundColor: "#9C5412", color: "white" }}>
                 Rent Our Spacious Houses
               </button>

@@ -34,7 +34,7 @@ function App() {
         {/* <Route path="/myaccount" element={<MyAccount />} /> */}
         {/* <Route path="/help" element={<Help />} /> */}
         <Route path="/" element={<HomeDash />} />
-        <Route path="/tenant-form" element={<RentForm /> } />
+        <Route path="/form" element={<RentForm /> } />
       </Routes>
        {/* <NavbarDash />  */}
       {/* <HomeDash />     */}
