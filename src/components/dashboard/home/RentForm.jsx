@@ -112,7 +112,7 @@ const RentForm = () => {
                         <label htmlFor="leaseInputPassword1" className="form-label">Lease Start Date</label>
                         <input type="datetime-local" className="form-control" id="leaseInputPassword1" required/>
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                     <label htmlFor="formFile" className="form-label">Upload a copy of ID</label>
                     <input className="form-control" type="file" id="formFile" required/>
                     </div>
