@@ -2,12 +2,14 @@ import React from 'react'
 import About from './About'
 import Properties from './Properties'
 import Footer from '../navbar/Footer'
+import Navbar from '../navbar/Navbar'
 
 
 
 const Homepg = () => {
   return (
     <>
+     <Navbar />
       <section className='landing--page '>
         <div className='container-fuild d-flex align-items-center justify-content-center landing--image mx-auto'>
         
