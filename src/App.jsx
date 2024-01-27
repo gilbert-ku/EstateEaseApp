@@ -25,18 +25,20 @@ function App() {
       
       
       {/* <Navbar /> */}
-      {/* <Routes>
-        <Route path="/" element={<Homepg />} />
-        <Route path="/aboutus" element={<About />} />
-        <Route path="/apartments" element={<Apartments />} />
-        <Route path="/movers" element={<Movers />} />
-        <Route path="/signin" element={<SignUp />} />
-        <Route path="/myaccount" element={<MyAccount />} />
-        <Route path="/help" element={<Help />} />
-      </Routes> */}
-      {/* <NavbarDash /> */}
+      <Routes>
+        {/* <Route path="/" element={<Homepg />} /> */}
+        {/* <Route path="/aboutus" element={<About />} /> */}
+        {/* <Route path="/apartments" element={<Apartments />} /> */}
+        {/* <Route path="/movers" element={<Movers />} /> */}
+        {/* <Route path="/signin" element={<SignUp />} /> */}
+        {/* <Route path="/myaccount" element={<MyAccount />} /> */}
+        {/* <Route path="/help" element={<Help />} /> */}
+        <Route path="/" element={<HomeDash />} />
+        <Route path="/tenant-form" element={<RentForm /> } />
+      </Routes>
+       {/* <NavbarDash />  */}
       {/* <HomeDash />     */}
-      <RentForm />
+      {/* <RentForm /> */}
 
     </>
   )

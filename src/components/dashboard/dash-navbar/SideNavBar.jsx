@@ -98,4 +98,4 @@ const SideNavBar = () => {
 
 export default SideNavBar;
 
-SideNavBar.js
+// SideNavBar.js

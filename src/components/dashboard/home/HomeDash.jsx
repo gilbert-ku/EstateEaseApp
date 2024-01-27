@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import SideNavBar from '../dash-navbar/SideNavBar';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
@@ -46,9 +47,13 @@ const homeDash = () => {
               EstateEase provides elegant and spacious houses for an unparalleled living experience. 
               Our secure app makes hassle-free payments easy with invoices before your rental period and instant receipts upon payment.
             </p>
-            <button className="btn mt-1  w-100 w-sm-25" style={{ backgroundColor: "#9C5412", color: "white" }}>
-              Rent Our Spacious Houses
-            </button>
+            <Link to="/tenant-form" target='blank'>
+              <button className="btn mt-1  w-100 w-sm-25" style={{ backgroundColor: "#9C5412", color: "white" }}>
+                Rent Our Spacious Houses
+              </button>
+            </Link>
+            
+
           </div>
         </div>
 
