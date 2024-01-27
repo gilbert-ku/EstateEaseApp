@@ -152,6 +152,17 @@
   font-family: monospace;
 }
 
+/* footer dash */
+.social-media a{
+  color: black;
+  text-decoration: none;
+}
+
+.social-media 
+  a:hover{
+    color: #9C5412;
+    font-family: 700;
+  }
 
 @media (min-width: 768px) {
   .search--box {

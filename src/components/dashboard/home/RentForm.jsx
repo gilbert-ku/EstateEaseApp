@@ -4,6 +4,7 @@ import {Link } from 'react-router-dom'
 import { PhoneInput } from 'react-international-phone';
 import 'react-international-phone/style.css';
 import NavbarDash from '../dash-navbar/NavbarDash';
+import Footer from '../dash-navbar/Footer';
 
 const RentForm = () => {
     // ini international call
@@ -130,7 +131,8 @@ const RentForm = () => {
              
         </div>
     </section>
-    
+    <Footer />
+
     
     </>
   )

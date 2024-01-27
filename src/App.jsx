@@ -36,9 +36,7 @@ function App() {
         <Route path="/" element={<HomeDash />} />
         <Route path="/form" element={<RentForm /> } />
       </Routes>
-       {/* <NavbarDash />  */}
-      {/* <HomeDash />     */}
-      {/* <RentForm /> */}
+       
 
     </>
   )

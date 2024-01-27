@@ -4,6 +4,7 @@ import SideNavBar from '../dash-navbar/SideNavBar';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import NavbarDash from '../dash-navbar/NavbarDash';
+import Footer from '../dash-navbar/Footer';
 
 
 
