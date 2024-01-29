@@ -164,6 +164,16 @@
     font-family: 700;
   }
 
+
+.contact---us {
+  background-image: url("/contactus.jpg");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
 @media (min-width: 768px) {
   .search--box {
     width: 60vw;
