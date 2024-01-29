@@ -164,10 +164,7 @@
     font-family: 700;
   }
 
-
-
   /* contact us */
-
 
 .contact---us {
   background-image: url("/contactus.jpg");
@@ -188,12 +185,6 @@
   text-decoration: underline;
 
 }
-
-/* .iframe--map {
-  width="600" 
-  height="450" 
-  style="border:0;"
-} */
 
 .contact--text p {
   margin-top: -0.8rem;
