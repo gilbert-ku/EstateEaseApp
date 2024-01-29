@@ -164,6 +164,40 @@
     font-family: 700;
   }
 
+
+
+  /* contact us */
+
+
+.contact---us {
+  background-image: url("/contactus.jpg");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
+
+.contact--text {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.contact--text h3{
+  text-decoration: underline;
+
+}
+
+/* .iframe--map {
+  width="600" 
+  height="450" 
+  style="border:0;"
+} */
+
+.contact--text p {
+  margin-top: -0.8rem;
+}
 @media (min-width: 768px) {
   .search--box {
     width: 60vw;
