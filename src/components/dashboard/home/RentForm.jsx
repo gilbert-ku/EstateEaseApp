@@ -13,7 +13,12 @@ const RentForm = () => {
     <>
       <section className='container-fluid' style={{ height: "100vh" }}>
         <NavbarDash />
-        <div className="container">
+        <div className='container'>
+           <p className='fs-6 fs-md-5 mx-5'>
+           Welcome to EstateEase! Elevate your living with sophisticated homes, secure payments, instant receipts, and top-notch safety. Experience the pinnacle of elegance and convenience. Fill the rent form today for a seamless journey into luxury living.            </p> 
+        </div>
+        
+        <div className="container mt-2">
           <div className='mx-2 mx-md-5 mt-1 mt-md-3'>
             <form>
               <div className="row">

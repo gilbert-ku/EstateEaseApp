@@ -5,27 +5,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div className='container d-sm-flex text- justify-content-between ' >
-      <div className='ms-5 fs-6 my-auto' >
+    <div className='container d-sm-flex  justify-content-center align-item-center' >
+      <div className=' fs-6 mt-1 mt-md-2 mb-1 mb-md-2' >
         <p>© 2024 EstateEase. All rights reserved.</p>
       </div>
-        {/* <div className='mx-5 social-media text-center my-auto' >
-            <Link to="/whatsapp">
-            <FaWhatsapp className='mx-2 fs-4'/>
-            </Link>
-            <Link to="/fb">
-            <FaFacebook className='mx-2 fs-4'/>
-            </Link>
-            <Link to="insta">
-            <FaInstagram className='mx-2 fs-4'/>
-            </Link>
-            <Link to="x">
-            <FaXTwitter className='mx-2 fs-4'/>
-            </Link>
-            <Link to="Tt">
-            <FaTiktok className='mx-2 fs-4'/>
-            </Link>  
-        </div> */}
       </div>
     </>
   )
