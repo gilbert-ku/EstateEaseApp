@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { FaWhatsapp, FaXTwitter, FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa6";
+// import { Link } from 'react-router-dom'
+// import { FaWhatsapp, FaXTwitter, FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='ms-5 fs-6 my-auto' >
         <p>© 2024 EstateEase. All rights reserved.</p>
       </div>
-        <div className='mx-5 social-media text-center my-auto' >
+        {/* <div className='mx-5 social-media text-center my-auto' >
             <Link to="/whatsapp">
             <FaWhatsapp className='mx-2 fs-4'/>
             </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
             <Link to="Tt">
             <FaTiktok className='mx-2 fs-4'/>
             </Link>  
-        </div>
+        </div> */}
       </div>
     </>
   )
