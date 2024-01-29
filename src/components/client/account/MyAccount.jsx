@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import { FaGoogle } from 'react-icons/fa';
 import runda from '/landing.jpg';
 import karen from '/karen-man.jpg';
@@ -32,10 +33,13 @@ const MyAccount = () => {
             <p className="mx-4 my-auto">OR </p>
             <hr className="w-50 my-auto border-2" />
           </div>
-          <button className="btn btn-secondary w-100" style={{ color: 'white', backgroundColor: '#9C5412' }}>
+          <Link to="/Dashboard">
+            <button className="btn btn-secondary w-100" style={{ color: 'white', backgroundColor: '#9C5412' }}>
             <FaGoogle className="mx-2 text-center" />
             SignIn With Google
-          </button>
+            </button>
+          </Link>
+          
         </div>
 
         {/* Carousels */}
@@ -77,10 +81,11 @@ const MyAccount = () => {
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+
+              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+              </button>
           </div>
         </div>
       </div>
