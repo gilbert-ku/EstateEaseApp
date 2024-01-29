@@ -22,7 +22,7 @@ const homeDash = () => {
         <SideNavBar />
       </div>
 
-      <div className='container mx-0 mx-md-5 my-1 mt-md-4'>
+      <div className='container mx-auto mx-md-5 my-1 mt-md-4'>
         <NavbarDash />
         <p className='fs-4 mt-3'>Welcome, Gilbert Owino!</p>
         <p className='fs-5'>Experience Luxury Living with <span className='fs-4' style={{color: "#9C5412"}}>EstateEase</span></p>
@@ -30,8 +30,7 @@ const homeDash = () => {
         
         {/*  slide*/}
 
-        <div className="responsive-container ">
-        
+        <div className="responsive-container">
           <Zoom scale={0.7} indicators={true}>
             {images.map((each, index) => (
               <div key={index} className="responsive-item mx-1">
@@ -52,9 +51,6 @@ const homeDash = () => {
                 Rent Our Spacious Houses
               </button>
             </Link>
-            
-            
-
           </div>
         </div>
 
@@ -68,3 +64,26 @@ const homeDash = () => {
 }
 
 export default homeDash;  
+
+
+
+{/* <Zoom scale={0.7} indicators={true}>
+            {images.map((each, index) => (
+              <div key={index} className=" mx-1" style={{ backgroundImage: `url(${each})`, backgroundSize: 'cover', backgroundPosition: 'center', height: "80vh"}}>
+                <h1>hellow</h1>
+                <div className=' '>
+                  <div className='my-auto'>
+                    <p className='w-100 w-md-75'>
+                      EstateEase provides elegant and spacious houses for an unparalleled living experience. 
+                      Our secure app makes hassle-free payments easy with invoices before your rental period and instant receipts upon payment.
+                    </p>
+                    <Link to="/Dashboard/form" target="_blank">
+                      <button className="btn mt-1  w-100 w-sm-25" style={{ backgroundColor: "#9C5412", color: "white" }}>
+                        Rent Our Spacious Houses
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Zoom> */}
