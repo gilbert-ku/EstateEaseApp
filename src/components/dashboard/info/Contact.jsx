@@ -30,6 +30,8 @@ const Contact = () => {
             <p>Nairobi, Westland</p>
           </div>
         </div> 
+
+        {/* google map */}
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8518221552354!2d36.79940277572205!3d-1.2611604987268306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f176b6bde7637%3A0x41554102ed5ccccf!2sSarit!5e0!3m2!1sen!2ske!4v1706564563089!5m2!1sen!2ske"
         className='iframe--map w-100 px-0 pe-md-5' 
         allowFullScreen="" 
