@@ -31,23 +31,23 @@ const NavbarDash = () => {
                     </form>
                     <ul className="navbar-nav me-0 mb-2 mb-lg-0 px-1 px-md-3 ">
                         <li className="nav-item">
-                            <Link to="Notification" className="nav-link fs-4" ><IoNotificationsSharp /></Link>
+                            <Link to="/dashboard/notification" className="nav-link fs-4" ><IoNotificationsSharp /></Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="/account" className="nav-link dropdown-toggle fs-5 my-auto"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="" className="nav-link dropdown-toggle fs-5 my-auto"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span><VscAccount className='me-2'/></span>
                                 gilbert45ku
                             </Link >
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <Link to="setting" className="dropdown-item" >
+                                    <Link to="/dashboard/setting" className="dropdown-item" >
                                         <span><IoSettingsOutline /></span>
                                         Setting
                                     </Link >
                                 </li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li>
-                                    <Link to="FQA" className="dropdown-item" >
+                                    <Link to="/dashboard/FQA" className="dropdown-item" >
                                         <span><TfiHelpAlt /></span>
                                         Find Help
                                     </Link>

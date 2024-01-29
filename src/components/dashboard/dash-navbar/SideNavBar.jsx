@@ -29,7 +29,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/edit-profile" className="nav-link  my-2">
+          <Link to="/Dashboard/editProfile" className="nav-link  my-2">
             <span className="icon-name">
               <MdEdit className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Edit Profile</span>
@@ -39,7 +39,7 @@ const SideNavBar = () => {
 
 
         <li className="nav-item">
-          <Link to="/invoice" className="nav-link  my-2">
+          <Link to="/Dashboard/invoice" className="nav-link  my-2">
             <span className="icon-name ">
               <FaFileInvoiceDollar className='me-1 fs-5 fs-md-3 '/>
               <span className="d-none d-md-inline">Invoice</span>
@@ -48,7 +48,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/payments" className="nav-link  my-2">
+          <Link to="/Dashboard/payments" className="nav-link  my-2">
             <span className="icon-name ">
               <MdOutlinePayments className='me-1 fs-5 fs-md-3 '/>
               <span className="d-none d-md-inline">Payments</span>
@@ -57,7 +57,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/receipt" className="nav-link  my-2">
+          <Link to="/Dashboard/receipts" className="nav-link  my-2">
             <span className="icon-name">
               <IoReceiptOutline className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Receipt</span>
@@ -66,7 +66,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/contactUs" className="nav-link  my-2">
+          <Link to="/Dashboard/contact" className="nav-link  my-2">
             <span className="icon-name">
               <AiOutlineMessage className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Contact Us</span>
@@ -75,7 +75,7 @@ const SideNavBar = () => {
         </li>
 
         <li className="nav-item">
-          <Link to="/reviews" className="nav-link  my-2">
+          <Link to="/Dashboard/reviews" className="nav-link  my-2">
             <span className="icon-name">
               <MdOutlineReviews className='me-1 fs-5 fs-md-3'/>
               <span className="d-none d-md-inline">Reviews</span>
