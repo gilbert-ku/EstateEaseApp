@@ -68,8 +68,7 @@ const ReviewCards = () => {
 
     //   handle like and dislick click
 
-    const handleLike = () => {
-    }
+    
 
   return (
     <>
@@ -125,7 +124,7 @@ const ReviewCards = () => {
                   </span>
                 </div>
               
-              <p className='p-1 p-md-2'><span className='fs-3 p-2' style={{ color: "#9C5412" }}><ImQuotesLeft/> </span>{review.body}</p>
+              <p className='p-1 p-md-2'><span className='fs-3 p-2' style={{ color: "#9C5412" }}><ImQuotesLeft/></span>{review.body}</p>
               
             </div>
             

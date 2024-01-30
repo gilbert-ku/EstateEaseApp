@@ -1,10 +1,17 @@
 import React from 'react'
+import { Modal } from 'react-responsive-modal';
+import 'react-responsive-modal/styles.css';
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { MdEdit } from 'react-icons/md';
 import ReviewCards from './ReviewCards';
 
 
 const Reviews = () => {
+
+
+  // form modal
+  const [open, setOpen] = React.useState(false);
+
   return (
     <>
       <div className='contact---us bg-white text-center d-flex justify-content-center align-item-center m-auto'>
@@ -34,7 +41,10 @@ const Reviews = () => {
             </div>
         
             <div>
-              <button className='btn text-white w-100 w-25 fs-6'style={{ backgroundColor: "#9C5412" }}>
+              <button className='btn text-white w-100 w-25 fs-6'
+              style={{ backgroundColor: "#9C5412" }}
+              onClick={() => setOpen(true)}
+              >
                 <span className='mx-2'>
                   <MdEdit />
                 </span>
@@ -42,6 +52,23 @@ const Reviews = () => {
               </button>
             </div>
           </div>
+          {/* review code and modal */}
+          <Modal
+            open={open}
+            onClose={() => setOpen(false)}
+            center
+            classNames={{
+              overlayAnimationIn: 'customEnterOverlayAnimation',
+              overlayAnimationOut: 'customLeaveOverlayAnimation',
+              modalAnimationIn: 'customEnterModalAnimation',
+              modalAnimationOut: 'customLeaveModalAnimation',
+            }}
+            animationDuration={800}
+          >
+            <p>
+              Gilbert
+            </p>
+          </Modal>
       
           {/* reviews body */}
       
@@ -50,7 +77,6 @@ const Reviews = () => {
             <div className='border border-1'>
               <ReviewCards    
               />
-              
             </div>
           </div>
 

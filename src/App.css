@@ -194,6 +194,45 @@
 .review--time {
   margin-top: -1.2rem;
 }
+
+
+/* review-form-modal */
+
+@keyframes customEnterOverlayAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveOverlayAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes customEnterModalAnimation {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveModalAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+
+
 @media (min-width: 768px) {
   .search--box {
     width: 60vw;
