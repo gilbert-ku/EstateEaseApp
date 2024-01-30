@@ -65,9 +65,30 @@ const Reviews = () => {
             }}
             animationDuration={800}
           >
-            <p>
-              Gilbert
-            </p>
+            <div>
+              <form action="">
+                <div className="mb-3">
+                  <label htmlFor="nameFormControlInput-review" className="form-label">Full Name</label>
+                  <input type="text" className="form-control" id="nameFormControlInput-review" placeholder="John Doe" required/>
+                </div>
+                
+                <div className="mb-3">
+                  <label htmlFor="messangeFormControlTextarea-review" className="form-label">Reviews</label>
+                  <textarea className="form-control" id="messangeFormControlTextarea-review" required placeholder="Write your review" rows="3"></textarea>
+                </div>
+                <button className="btn text-white w-100" style={{backgroundColor: "#9C5412"}}>Submit</button>
+              </form>
+              <div className="mb-3 mt-2">
+                  <label htmlFor="emailFormControlInput-review" className="form-label">Rate us</label>
+                  <span className='fs-5 p-1 p-md-2'>
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                    </span>
+                </div>
+            </div>
           </Modal>
       
           {/* reviews body */}
