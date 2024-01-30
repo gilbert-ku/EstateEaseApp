@@ -18,7 +18,7 @@ const homeDash = () => {
   return (
     <>
     <section className='fluid  home--dash d-flex' >
-      <div className='px-1 px-sm-5 side--bar' style={{backgroundColor: "#9C5412"}}>
+       <div className='px-1 px-sm-5 side--bar' style={{backgroundColor: "#9C5412"}}>
         <SideNavBar />
       </div>
 
