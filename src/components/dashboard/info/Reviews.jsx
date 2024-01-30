@@ -1,10 +1,17 @@
 import React from 'react'
+import { Modal } from 'react-responsive-modal';
+import 'react-responsive-modal/styles.css';
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { MdEdit } from 'react-icons/md';
 import ReviewCards from './ReviewCards';
 
 
 const Reviews = () => {
+
+
+  // form modal
+  const [open, setOpen] = React.useState(false);
+
   return (
     <>
       <div className='contact---us bg-white text-center d-flex justify-content-center align-item-center m-auto'>
@@ -15,7 +22,7 @@ const Reviews = () => {
       </div>
 
       {/* header */}
-        <div className='container bg-secondary'>
+        <div className='container bg-secndary'>
           <p className='fs-1 fw-bold text-dark font-monospace' >Reviews</p>
 
           <div className='d-md-flex justify-content-between '>
@@ -34,7 +41,10 @@ const Reviews = () => {
             </div>
         
             <div>
-              <button className='btn text-white w-100 w-25 fs-6'style={{ backgroundColor: "#9C5412" }}>
+              <button className='btn text-white w-100 w-25 fs-6'
+              style={{ backgroundColor: "#9C5412" }}
+              onClick={() => setOpen(true)}
+              >
                 <span className='mx-2'>
                   <MdEdit />
                 </span>
@@ -42,15 +52,52 @@ const Reviews = () => {
               </button>
             </div>
           </div>
+          {/* review code and modal */}
+          <Modal
+            open={open}
+            onClose={() => setOpen(false)}
+            center
+            classNames={{
+              overlayAnimationIn: 'customEnterOverlayAnimation',
+              overlayAnimationOut: 'customLeaveOverlayAnimation',
+              modalAnimationIn: 'customEnterModalAnimation',
+              modalAnimationOut: 'customLeaveModalAnimation',
+            }}
+            animationDuration={800}
+          >
+            <div>
+              <form action="">
+                <div className="mb-3">
+                  <label htmlFor="nameFormControlInput-review" className="form-label">Full Name</label>
+                  <input type="text" className="form-control" id="nameFormControlInput-review" placeholder="John Doe" required/>
+                </div>
+                
+                <div className="mb-3">
+                  <label htmlFor="messangeFormControlTextarea-review" className="form-label">Reviews</label>
+                  <textarea className="form-control" id="messangeFormControlTextarea-review" required placeholder="Write your review" rows="3"></textarea>
+                </div>
+                <button className="btn text-white w-100" style={{backgroundColor: "#9C5412"}}>Submit</button>
+              </form>
+              <div className="mb-3 mt-2">
+                  <label htmlFor="emailFormControlInput-review" className="form-label">Rate us</label>
+                  <span className='fs-5 p-1 p-md-2'>
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                    </span>
+                </div>
+            </div>
+          </Modal>
       
           {/* reviews body */}
       
           <div className=''>
             <p>Recent Reviews</p>
-            <div className='border border-1'>
+            <div className='mx-0 mx-sm-5 mb-3'>
               <ReviewCards    
               />
-              
             </div>
           </div>
 

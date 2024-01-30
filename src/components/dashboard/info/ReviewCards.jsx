@@ -1,11 +1,12 @@
 import React from 'react'
+import { useState } from 'react';
 import { ImQuotesLeft } from "react-icons/im";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import reviewimg from "/reviews.png"
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
-import { FcLike, FcDislike } from "react-icons/fc";
-
+import { FcLike } from "react-icons/fc";
+import { FcLikePlaceholder } from "react-icons/fc";
 
 
 
@@ -40,10 +41,13 @@ const reviewData = [
     body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. Iste mollitia neque veritatis accusantium ea iure odit provident aliquam error, hic ipsa eum suscipit blanditiis, quo nesciunt quasi illum ducimus incidunt eveniet nemo! Rem quas libero eos quasi perferendis.", 
     time: "10 Days Ago" 
 },
-];
-
-
+];   
 const ReviewCards = () => {
+
+    const [isClicked, setIsClicked] = useState(false)
+
+
+    // slide sesponsiveness
     const responsive = {
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
@@ -61,7 +65,13 @@ const ReviewCards = () => {
           slidesToSlide: 1
         }
       };
-      
+
+    //   handle like and dislick click
+    const handleLiked  = () => {
+      setIsClicked(!isClicked);
+    }
+    
+
   return (
     <>
     <Carousel
@@ -82,7 +92,7 @@ const ReviewCards = () => {
       >
         {reviewData.map((review, index) => (
           <div key={index} 
-          className='card my-2 b' 
+          className='card my-2 ' 
           style={{width: "24rem"}}>
             <div className='d-flex justify-content-between'>
                 <div className='d-flex  my-2'>
@@ -99,7 +109,11 @@ const ReviewCards = () => {
                     </div>
                 </div>
                 <div className='m-2 m-md-4 fs-3 fs-md-4'>
-                    <button className='btn'><FcLike /></button>
+                    <button className='btn'
+                    onClick={handleLiked}
+                    >
+                      {isClicked ? <FcLike /> : <FcLikePlaceholder />}
+                    </button>
                     
                 </div>
             </div>
@@ -116,7 +130,7 @@ const ReviewCards = () => {
                   </span>
                 </div>
               
-              <p className='p-1 p-md-2'><span className='fs-3 p-2' style={{ color: "#9C5412" }}><ImQuotesLeft/> </span>{review.body}</p>
+              <p className='p-1 p-md-2'><span className='fs-3 p-2' style={{ color: "#9C5412" }}><ImQuotesLeft/></span>{review.body}</p>
               
             </div>
             
