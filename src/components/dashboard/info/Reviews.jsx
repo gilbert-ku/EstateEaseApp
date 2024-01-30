@@ -1,6 +1,10 @@
 import React from 'react'
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { MdEdit } from 'react-icons/md';
+import ReviewCards from './ReviewCards';
+
+
+
 const Reviews = () => {
   return (
     <>
@@ -11,11 +15,11 @@ const Reviews = () => {
         </div>
       </div>
 
-      
+      {/* header */}
         <div className='container bg-secondary'>
           <p className='fs-1 fw-bold text-dark font-monospace' >Reviews</p>
 
-          <div className='d-flex justify-content-between'>
+          <div className='d-md-flex justify-content-between '>
             <div>
               <p className=''>
                 <span className='fw-bold mx-2'>4.5</span>
@@ -31,8 +35,8 @@ const Reviews = () => {
             </div>
         
             <div>
-              <button className='btn btn-primary'>
-                <span>
+              <button className='btn text-white w-100 w-25 fs-6'style={{ backgroundColor: "#9C5412" }}>
+                <span className='mx-2'>
                   <MdEdit />
                 </span>
                 Write a Review
@@ -40,7 +44,16 @@ const Reviews = () => {
             </div>
           </div>
       
-      </div>
+          {/* reviews body */}
+      
+          <div className=''>
+            <p>Recent Reviews</p>
+            <div className='border border-1'>
+              <ReviewCards />
+            </div>
+          </div>
+
+        </div>
     </>
   )
 }
