@@ -4,7 +4,6 @@ import { MdEdit } from 'react-icons/md';
 import ReviewCards from './ReviewCards';
 
 
-
 const Reviews = () => {
   return (
     <>
@@ -49,7 +48,9 @@ const Reviews = () => {
           <div className=''>
             <p>Recent Reviews</p>
             <div className='border border-1'>
-              <ReviewCards />
+              <ReviewCards    
+              />
+              
             </div>
           </div>
 
@@ -58,4 +59,4 @@ const Reviews = () => {
   )
 }
 
-export default Reviews
+export default Reviews;
