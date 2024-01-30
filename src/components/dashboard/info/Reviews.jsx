@@ -15,7 +15,7 @@ const Reviews = () => {
       </div>
 
       {/* header */}
-        <div className='container bg-secondary'>
+        <div className='container bg-secndary'>
           <p className='fs-1 fw-bold text-dark font-monospace' >Reviews</p>
 
           <div className='d-md-flex justify-content-between '>
