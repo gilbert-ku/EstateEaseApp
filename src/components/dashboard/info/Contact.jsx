@@ -10,8 +10,8 @@ const Contact = () => {
     <>
     <div className='contact---us bg-white text-center d-flex justify-content-center align-item-center m-auto'>
       <div className='contact--text p-3 m-auto'>
-        <h3 className='fs-3' style={{ color: "#9C5412" }}>EstateEase</h3>
-        <p className='fs-1 fw-bold text-dark'>Contact Us</p>
+        <h3 className='fs-3 font-monospace' style={{ color: "#9C5412" }}>EstateEase</h3>
+        <p className='fs-1 fw-bold text-dark font-monospace'>Contact Us</p>
       </div>
     </div>
      <div className="container d-md-flex">
@@ -21,13 +21,13 @@ const Contact = () => {
         <div className='d-flex justify-content-between d-md-block'>
           <div>
             <p className='fw-bold' style={{color: "#9C5412"}}>Contact info</p>
-            <p>estateEase@info.com</p>
-            <p>+254 700 111 333 </p>
+            <p className='font-monospace'>estateEase@info.com</p>
+            <p className='font-monospace'>+254 700 111 333 </p>
           </div>
           <div>
             <p className='fw-bold' style={{color: "#9C5412"}}>Head Office</p>
-            <p>Sarit Center</p>
-            <p>Nairobi, Westland</p>
+            <p className='font-monospace'>Sarit Center</p>
+            <p className='font-monospace'>Nairobi, Westland</p>
           </div>
         </div> 
 
@@ -63,7 +63,7 @@ const Contact = () => {
             <form action="">
               <div className="mb-3">
                 <label htmlFor="nameFormControlInput1" className="form-label">Full Name</label>
-                <input type="email" className="form-control" id="nameFormControlInput1" placeholder="John Doe" required/>
+                <input type="text" className="form-control" id="nameFormControlInput1" placeholder="John Doe" required/>
               </div>
               <div className="mb-3">
                 <label htmlFor="emailFormControlInput1" className="form-label">Email address</label>
