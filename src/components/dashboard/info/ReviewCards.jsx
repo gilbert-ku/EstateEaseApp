@@ -44,7 +44,7 @@ const reviewData = [
 ];   
 const ReviewCards = () => {
 
-    const [clicked, useClicked] = useState(false)
+    const [isClicked, setIsClicked] = useState(false)
 
 
     // slide sesponsiveness
@@ -67,7 +67,9 @@ const ReviewCards = () => {
       };
 
     //   handle like and dislick click
-
+    const handleLiked  = () => {
+      setIsClicked(!isClicked);
+    }
     
 
   return (
@@ -90,7 +92,7 @@ const ReviewCards = () => {
       >
         {reviewData.map((review, index) => (
           <div key={index} 
-          className='card my-2 b' 
+          className='card my-2 ' 
           style={{width: "24rem"}}>
             <div className='d-flex justify-content-between'>
                 <div className='d-flex  my-2'>
@@ -107,7 +109,11 @@ const ReviewCards = () => {
                     </div>
                 </div>
                 <div className='m-2 m-md-4 fs-3 fs-md-4'>
-                    <button className='btn'><FcLike /></button>
+                    <button className='btn'
+                    onClick={handleLiked}
+                    >
+                      {isClicked ? <FcLike /> : <FcLikePlaceholder />}
+                    </button>
                     
                 </div>
             </div>

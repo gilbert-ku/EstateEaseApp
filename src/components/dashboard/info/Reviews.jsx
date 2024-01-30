@@ -95,7 +95,7 @@ const Reviews = () => {
       
           <div className=''>
             <p>Recent Reviews</p>
-            <div className='border border-1'>
+            <div className='mx-0 mx-sm-5 mb-3'>
               <ReviewCards    
               />
             </div>
