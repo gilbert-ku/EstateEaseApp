@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaDownload } from "react-icons/fa6";
 
 const Invoice = () => {
   return (
@@ -28,6 +29,7 @@ const Invoice = () => {
               <th scope="col" style={{ color: "#9C5412" }}>Due Date </th>
               <th scope="col" style={{ color: "#9C5412" }}>Description</th>
               <th scope="col" style={{ color: "#9C5412" }}>Amount</th>
+              <th scope="col" style={{ color: "#9C5412" }}>Download </th>
             </tr>
           </thead>
 
@@ -42,6 +44,7 @@ const Invoice = () => {
               <td>05/01/2024</td>
               <td>Rent</td>
               <td>Ksh 30 000</td>
+              <td><FaDownload /></td>
               
             </tr>
             <tr>
@@ -54,6 +57,7 @@ const Invoice = () => {
               <td>05/12/2023</td>
               <td>Rent</td>
               <td>Ksh 30 000</td>
+              <td><FaDownload /></td>
             </tr>
 
             <tr>
@@ -66,6 +70,7 @@ const Invoice = () => {
               <td>05/11/2023</td>
               <td>Rent</td>
               <td>Ksh 30 000</td>
+              <td><FaDownload /></td>
             </tr>
 
             <tr>
@@ -78,6 +83,7 @@ const Invoice = () => {
               <td>05/10/2023</td>
               <td>Rent</td>
               <td>Ksh 30 000</td>
+              <td><FaDownload /></td>
             </tr>
 
             <tr>
@@ -90,6 +96,7 @@ const Invoice = () => {
               <td>05/09/2023</td>
               <td>Rent</td>
               <td>Ksh 30 000</td>
+              <td><FaDownload /></td>
             </tr>
           </tbody>
           </table>
