@@ -11,7 +11,7 @@ const Invoice = () => {
           </div>
           <div>
           <form className="d-flex">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <input className="form-control me-2" type="search" placeholder="Search date" aria-label="Search" />
           </form>
           </div>
         </div>
