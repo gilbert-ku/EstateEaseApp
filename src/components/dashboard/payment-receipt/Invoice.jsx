@@ -6,7 +6,7 @@ const Invoice = () => {
       <div className='container'>
         <div className='d-flex justify-content-between mt-5 '>
           <div>
-            <p className='fs-2'>Invoive</p>
+            <p className='fs-2' style={{ color: "#9C5412" }}>Invoive</p>
           </div>
           <div>
           <form className="d-flex">
@@ -20,14 +20,14 @@ const Invoice = () => {
           <thead>
             <tr>
               {/* <th scope="col">#</th> */}
-              <th scope="col">Invoice ID</th>
-              <th scope="col">Tenant Name</th>
-              <th scope="col">Tenant ID</th>
-              <th scope="col">House Number</th>
-              <th scope="col">Invoice Date </th>
-              <th scope="col">Due Date </th>
-              <th scope="col">Description</th>
-              <th scope="col">Amount</th>
+              <th scope="col" style={{ color: "#9C5412" }}>Invoice ID</th>
+              <th scope="col" style={{ color: "#9C5412" }}>Tenant Name</th>
+              <th scope="col" style={{ color: "#9C5412" }}>Tenant ID</th>
+              <th scope="col" style={{ color: "#9C5412" }}>House Number</th>
+              <th scope="col" style={{ color: "#9C5412" }}>Invoice Date </th>
+              <th scope="col" style={{ color: "#9C5412" }}>Due Date </th>
+              <th scope="col" style={{ color: "#9C5412" }}>Description</th>
+              <th scope="col" style={{ color: "#9C5412" }}>Amount</th>
             </tr>
           </thead>
 
