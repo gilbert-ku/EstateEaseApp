@@ -30,8 +30,22 @@ const NavbarDash = () => {
                         <input className="form-control me-2 " type="search" placeholder="Search" aria-label="Search" />
                     </form>
                     <ul className="navbar-nav me-0 mb-2 mb-lg-0 px-1 px-md-3 ">
+
+                        {/* button  and alert */}
                         <li className="nav-item">
-                            <Link to="/dashboard/notification" className="nav-link fs-4" ><IoNotificationsSharp /></Link>
+                            <Link to="/dashboard/notification" className="nav-link fs-4 position-relative" >
+                                {/* <IoNotificationsSharp />
+                            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                                <span class="visually-hidden">New alerts</span>
+                            </span> */}
+
+                            <button type="button" class="btn btn-primary nav-link fs-4 position-relative">
+                                <IoNotificationsSharp />
+                                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                            </Link>
                         </li>
                         <li className="nav-item dropdown">
                             <Link to="" className="nav-link dropdown-toggle fs-5 my-auto"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
