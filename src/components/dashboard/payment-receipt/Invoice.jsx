@@ -2,7 +2,89 @@ import React from 'react'
 
 const Invoice = () => {
   return (
-    <div>Invoice</div>
+    <>
+      <div className='container'>
+      <table className="table">
+        <thead>
+          <tr>
+            {/* <th scope="col">#</th> */}
+            <th scope="col">Invoice ID</th>
+            <th scope="col">Tenant Name</th>
+            <th scope="col">Tenant ID</th>
+            <th scope="col">House Number</th>
+            <th scope="col">Invoice Date </th>
+            <th scope="col">Due Date </th>
+            <th scope="col">Description</th>
+            <th scope="col">Amount</th>
+          </tr>
+        </thead>
+
+
+        <tbody>
+          <tr>
+            {/* <th scope="row">1</th> */}
+            <td>01</td>
+            <td>Gilbert Kutoto</td>
+            <td>54321</td>
+            <td>Blw 1</td>
+            <td>01/01/2024</td>
+            <td>05/01/2024</td>
+            <td>Rent</td>
+            <td>Ksh 30 000</td>
+            
+          </tr>
+          <tr>
+            {/* <th scope="row">2</th> */}
+            <td>02</td>
+            <td>John Doe</td>
+            <td>54321</td>
+            <td>Blw 1</td>
+            <td>01/12/2023</td>
+            <td>05/12/2023</td>
+            <td>Rent</td>
+            <td>Ksh 30 000</td>
+          </tr>
+
+          <tr>
+            {/* <th scope="row">3</th> */}
+            <td>03</td>
+            <td>Jane Doe</td>
+            <td>54321</td>
+            <td>Blw 1</td>
+            <td>01/11/2023</td>
+            <td>05/11/2023</td>
+            <td>Rent</td>
+            <td>Ksh 30 000</td>
+          </tr>
+
+          <tr>
+            {/* <th scope="row">4</th> */}
+            <td>04</td>
+            <td>Arcane Achie</td>
+            <td>54321</td>
+            <td>Blw 1</td>
+            <td>01/10/2023</td>
+            <td>05/10/2023</td>
+            <td>Rent</td>
+            <td>Ksh 30 000</td>
+          </tr>
+
+          <tr>
+            {/* <th scope="row">5</th> */}
+            <td>05</td>
+            <td>Gillie Daddy</td>
+            <td>54321</td>
+            <td>Blw 1</td>
+            <td>01/09/2023</td>
+            <td>05/09/2023</td>
+            <td>Rent</td>
+            <td>Ksh 30 000</td>
+          </tr>
+        </tbody>
+      </table>
+        
+      </div>
+    </>
   )
 }
 
