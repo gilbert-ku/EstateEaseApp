@@ -8,6 +8,8 @@ import kitchen from "/Kitchen.jpeg"
 import sitting  from "/sittingroom.jpeg"
 import sitting2  from "/sittingroom2 .jpeg"
 import profile from "/reviews.png"
+import { MdOutlineBedroomChild, MdOutlineBathtub } from "react-icons/md";
+import { IoIosHeartEmpty } from "react-icons/io";
 
 
 
@@ -17,7 +19,6 @@ const Tenant = () => {
   return (
     <>
         <section className="container " style={{height: "100vh", width:"100vw"}}>
-            <h1>Dashbord</h1>
             {/* new applicant */}
             <div className='d-md-flex justify-content-between border border-2 p-2 rounded-3 mt-1 mt-md-2'>
 
@@ -77,12 +78,26 @@ const Tenant = () => {
                 <div className=' border border-2 p-2 rounded-3 mt-1 mt-md-2'>
                     <p className='fw-bold'>Properties</p>
                     <p>From the most recent properties you see</p>
-                    <div className='property--seen d-md-flex justify-content-between'>
+                    <div className='property--seen d-md-flex justify-content-between border border-2 p-2 rounded-3'>
                         <div className='rounded-3  ' >
                             <img src={seenbungalow} 
                             className='img-fluid rounded-3 '
                             style={{height: "25rem"}}
                             alt="recent property" />
+
+                            <div>
+                                <div className='d-flex justify-content-between mt-1'>
+                                    <p>Kingdom Apartment</p>
+                                    <p>Ngong Road</p>    
+                                </div>
+                                
+
+                                <div className='d-flex justify-content-between'>
+                                    <p><span><MdOutlineBedroomChild className='fs-4 me-2'/></span> 4 Bed Room</p>
+                                    <p><span><MdOutlineBathtub className='fs-4 me-2'/></span>2 Bath Room</p>
+                                    <p><span><IoIosHeartEmpty className='fs-4 '/></span></p>
+                                </div>
+                            </div>
                         </div>
                         {/* Carousels */}
                             <div className="d-none d-md-block ms-5">
