@@ -37,7 +37,9 @@ const Tenant = () => {
                     </div>
                 </div>
                 <div className='my-auto'>
-                    <button className='btn text-white w-100' style={{backgroundColor: "#9C5412"}}>Application Form</button>
+                    <Link to="/Dashboard/form" target="_blank">
+                        <button className='btn text-white w-100' style={{backgroundColor: "#9C5412"}}>Application Form</button>
+                    </Link>
                 </div>
             </div>
 
@@ -69,7 +71,9 @@ const Tenant = () => {
                         </div>
 
                             <div className='my-auto'>
-                                <button className='btn text-white w-100' style={{backgroundColor: "#9C5412"}}>Schedule Payment</button>
+                                <Link to="/Dashboard/payments">
+                                    <button className='btn text-white w-100' style={{backgroundColor: "#9C5412"}}>Schedule Payment</button>
+                                </Link>  
                             </div>
                         </div>
                     </div>
