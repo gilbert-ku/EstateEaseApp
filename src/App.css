@@ -123,12 +123,15 @@
   color: rgb(14, 230, 14);
 }
 .responsive-container {
-  width: 82vw;
+  width: 90vw;
+  height: 500px;
   
 }
 
 .responsive-container img {
   border-radius: 1rem;
+  width: 90vw;
+  height: 580px;
 
 }
 
@@ -153,7 +156,15 @@
 
 @media (min-width: 576px) {
   .responsive-container {
-    width: 25vw;
+    width: 18vw;
+    height: 200px;
+  }
+
+  .responsive-container img {
+    border-radius: 1rem;
+    width: 18vw;
+    height: 200px;
+  
   }
   .side--bar {
     width: 15vw;
