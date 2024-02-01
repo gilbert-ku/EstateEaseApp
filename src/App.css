@@ -99,10 +99,29 @@
   height: 100vh;
 } */
 
+
+/* dashboad */
 .dash---p {
   margin-top: -1.2rem;
 }
 
+.pay--schedul {
+  color: #9C5412;
+  background-color: rgba(182, 113, 11, 0.2);;
+}
+
+.current--bal::marker {
+  color: red;
+
+}
+
+.amount--due::marker {
+  color: green;
+}
+
+.total--payment::marker {
+  color: rgb(14, 230, 14);
+}
 .responsive-container {
   width: 82vw;
   
