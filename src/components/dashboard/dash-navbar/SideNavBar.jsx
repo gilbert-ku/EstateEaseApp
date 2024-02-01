@@ -12,13 +12,7 @@ const SideNavBar = () => {
     <nav className="navbar">
       
       <ul className="navbar-nav my-custom--link mt-1 mt-sm-5">
-      <li className="nav-item ">
-          <Link to="/Dashboard" className="nav-link  my-2 ">
-            <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg" 
-            className="rounded-circle d-none d-md-block mx-auto" alt=""  style={{width: "50px"}} />
-          </Link>
-        </li>
-
+      
         <li className="nav-item ">
           <Link to="/Dashboard" className="nav-link  my-2 ">
             <span className="icon-name">

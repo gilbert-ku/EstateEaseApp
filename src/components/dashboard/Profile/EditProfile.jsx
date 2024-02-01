@@ -36,15 +36,15 @@ const EditProfile = () => {
           <form action="">
             <div className="mb-3">
               <label htmlFor="nameFormControlInput1" className="form-label">Full Name</label>
-              <input type="text" className="form-control" id="nameFormControlInput1" placeholder="John Doe" required/>
+              <input type="text" className="form-control" id="nameFormControlInput1" placeholder="John Doe" />
             </div>
             <div className="mb-3">
               <label htmlFor="nameFormControlInput1" className="form-label">Email Name</label>
-              <input type="email" className="form-control" id="nameFormControlInput1" placeholder="example.@info.com" required/>
+              <input type="email" className="form-control" id="nameFormControlInput1" placeholder="example@info.com" />
             </div>
             <div className="mb-3">
               <label htmlFor="emailFormControlInput1" className="form-label">Phone Number</label>
-              <input type="email" className="form-control" id="emailFormControlInput1" placeholder="0712345678" required/>
+              <input type="text" className="form-control" id="emailFormControlInput1" placeholder="0712345678" />
             </div>
             
             <button className="btn text-white" style={{backgroundColor: "#9C5412"}}>Save Changes</button> <span className='px-2 px-md-5'>OR</span>
