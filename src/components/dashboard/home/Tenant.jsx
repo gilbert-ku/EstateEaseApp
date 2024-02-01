@@ -5,6 +5,7 @@ import birthroom from "/birthroom.jpeg"
 import kitchen from "/Kitchen.jpeg"
 import sitting  from "/sittingroom.jpeg"
 import sitting2  from "/sittingroom2 .jpeg"
+import profile from "/reviews.png"
 
 
 
@@ -37,39 +38,38 @@ const Tenant = () => {
                 </div>
             </div>
 
-
-{/* ********************************** */}
-            <div className=' d-flex'>
+                {/* ********************************** */}
+            <div className=' d-md-flex '>
                 {/* ******************************************* */}
-                <div>
+                <div className=''>
                     {/* payments */}
-                <div className=' border border-2 p-2 rounded-3 mt-5'>
-                    <p className='ms-4 ms-md-2'> <span className='fw-bold'>Schedule Payment</span> <span className='pay--schedul p-1 rounded-3'>DUE IN 7 Days</span></p>
+                    <div className=' border border-2 p-2 rounded-3 mt-5'>
+                        <p className='ms-4 ms-md-2'> <span className='fw-bold'>Schedule Payment</span> <span className='pay--schedul p-1 rounded-3'>DUE IN 7 Days</span></p>
 
-                    <hr  className=''/> 
-                    <div className='d-sm-flex justify-content-between'>
-                    <div className=''>
-                    <ul className='d-sm-flex justify-content-between p-0 p-sm-3'>
-                        <li className=" ms-4 ms-md-2 current--bal border-end-1">
-                        Current Balance
-                        <p>Ksh 0.00</p>
-                        </li>
-                        <li className=' amount--due ms-4 ms-md-5 border-end-1'>
-                        Amount Due
-                        <p>Ksh 30 000</p>
-                        </li>
-                        <li className='total--payment ms-4 ms-md-5 border-end-2'>
-                        Total Payment
-                        <p>KSh 30 000</p>
-                        </li>
-                    </ul>
-                    </div>
+                        <hr  className=''/> 
+                        <div className='d-sm-flex justify-content-between'>
+                        <div className=''>
+                        <ul className='d-sm-flex justify-content-between p-0 p-sm-3'>
+                            <li className=" ms-4 ms-md-2 current--bal border-end-1">
+                            Current Balance
+                            <p>Ksh 0.00</p>
+                            </li>
+                            <li className=' amount--due ms-4 ms-md-5 border-end-1'>
+                            Amount Due
+                            <p>Ksh 30 000</p>
+                            </li>
+                            <li className='total--payment ms-4 ms-md-5 border-end-2'>
+                            Total Payment
+                            <p>KSh 30 000</p>
+                            </li>
+                        </ul>
+                        </div>
 
-                        <div className='my-auto'>
-                            <button className='btn text-white w-100' style={{backgroundColor: "#9C5412"}}>Schedule Payment</button>
+                            <div className='my-auto'>
+                                <button className='btn text-white w-100' style={{backgroundColor: "#9C5412"}}>Schedule Payment</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
                 {/* property */}
                 <div className=' border border-2 p-2 rounded-3 mt-5'>
@@ -142,12 +142,76 @@ const Tenant = () => {
                 </div>
                 </div>
 
-                <div className='bg-secondary'>
-                    <img src="" alt="" />
+                <div className='mt-5 border border-2 p-2 rounded-3 mx-2'>
+                    <p className='ms-3 fw-bold'>My Profile</p>
+                    <div className='d-flex justify-content-center align-item-center'>
+                        <div style={{height: "6rem"}}>
+                            <img src={profile} 
+                            className='img-fluid rounded-circle bg-secondary'
+                            style={{height: "6rem"}}
+                            alt="profile" />
+                        </div>
+                    </div>
+                    <p className='my-2 text-center'>Gilbert Daddy Kutoto</p>
+
+                    <div>
+                        
+                    <table class="table table-bordered">
+                    <p className='fw-bold '
+                    style={{color: "#9C5412"}}>Overview</p>
+                        <tbody>
+                            <tr>
+                            {/* <th scope="row">1</th> */}
+                            <th scope="col">CATEGORY</th>
+                            <td>Bungalow</td>
+                            
+                            </tr>
+                            <tr>
+                            {/* <th scope="row">1</th> */}
+                            <th scope="col">HOUSE NO</th>
+                            <td>AP 17</td>
+                            </tr>
+
+                            <tr>
+                            {/* <th scope="row">1</th> */}
+                            <th scope="col">BEDROOM NO</th>
+                            <td>3</td>
+                            </tr>
+                        
+                            <tr>
+                            {/* <th scope="row">3</th> */}
+                            <th scope="col">PAID DATE</th>
+                            {/* <td colspan="2">Larry the Bird</td> */}
+                            <td>01/01/1014</td>
+                            </tr>
+
+                            <tr>
+                            {/* <th scope="row">3</th> */}
+                            <th scope="col">DUE DATE</th>
+                            {/* <td colspan="2">Larry the Bird</td> */}
+                            <td>01/01/2024</td>
+                            </tr>
+
+                            <tr>
+                            {/* <th scope="row">3</th> */}
+                            <th scope="col">AMOUNT</th>
+                            {/* <td colspan="2">Larry the Bird</td> */}
+                            <td>Ksh 30 000</td>
+                            </tr>
+
+                            <tr>
+                            {/* <th scope="row">3</th> */}
+                            <th scope="col">STATUS</th>
+                            {/* <td colspan="2">Larry the Bird</td> */}
+                            <td>Paid</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    
                 </div>
             </div>
             
-
         </section>
     </>
   )
