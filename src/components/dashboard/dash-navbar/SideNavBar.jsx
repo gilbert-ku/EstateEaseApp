@@ -112,7 +112,7 @@ import SideNavMenuItem from './SideNavMenuItem';
 
 const SideNavBar = () => {
   return (
-    <div className="d-flex justify-content-start mt-0" style={{ backgroundColor: '#9C5412', width: '18rem', height: '100vh' }}>
+    <div className="d-flex justify-content-start mt-0" style={{ backgroundColor: '#9C5412', width: '20vw', height: '100vh' }}>
       <nav className="navbar mt-0 pt-0">
         <ul className="navbar-nav my-custom--link mt-1 mt-sm-">
           <SideNavMenuItem to="/Dashboard" icon={<MdOutlineDashboardCustomize />} label="Dashboard" />

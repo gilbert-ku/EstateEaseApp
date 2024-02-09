@@ -8,7 +8,9 @@ const homeDash = () => {
   return (
     <>
     <div className='d-flex'>
-      <SideNavBar />
+      <div className='d-none d-md-block'>
+          <SideNavBar />
+      </div>
       <Tenant />
     </div>  
     </>

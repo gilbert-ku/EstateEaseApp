@@ -16,7 +16,7 @@ const Reviews = () => {
   return (
     <>
     <section className='d-flex'>
-      <div className='d-none d-sm-block'>
+      <div className='d-none d-md-block'>
         <SideNavBar />
       </div>
       <div className='w-100'>
