@@ -1,19 +1,12 @@
 import React from 'react'
-import SideNavBar from '../dash-navbar/SideNavBar';
 import 'react-slideshow-image/dist/styles.css';
 import Tenant from './Tenant';
-import SideBar from '../dash-navbar/SideBar';
-
-
 
 const homeDash = () => {
 
-// ];
   return (
     <>
-      {/* <SideNavBar /> */}
-      <SideBar />
-      {/* <Tenant /> */}
+      <Tenant />
     </>
   )
 }
