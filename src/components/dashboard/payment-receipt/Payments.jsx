@@ -2,13 +2,18 @@ import React from 'react'
 import card from "/master-card.png"
 import paypal from "/paypal.png"
 import mpesa from "/mpesa.png"
+import SideNavBar from '../dash-navbar/SideNavBar'
 
 const Payments = () => {
   return (
     <>
+    <section className='d-flex'>
+      <div className='d-none d-sm-block'>
+        <SideNavBar />
+      </div>
       <div className='container'>
         <div>
-          <p className="fs-2 fw-bold" style={{color: "#9C5412"}}>payment Geteway</p>
+          <p className="fs-2 fw-bold" style={{color: "#9C5412"}}>Payment Gateway</p>
         </div>
         <div className='border boder-2 p-1 p-md-5 '>
           <p className='fw-bold'>Payment Details</p>
@@ -65,6 +70,8 @@ const Payments = () => {
         </div>
         
       </div>
+    </section>
+      
     </>
   )
 }

@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa6";
 const Receipts = () => {
   return (
     <>
-    <div className='container'>
+      <div className='container'>
         <div className='d-flex justify-content-between mt-5 '>
           <div>
             <p className='fs-2' style={{ color: "#9C5412" }}>Receipts</p>
