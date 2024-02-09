@@ -10,7 +10,6 @@ import sitting2  from "/sittingroom2 .jpeg"
 import profile from "/reviews.png"
 import { MdOutlineBedroomChild, MdOutlineBathtub } from "react-icons/md";
 import { IoIosHeartEmpty } from "react-icons/io";
-import SideNavBar from '../dash-navbar/SideNavBar';
 
 
 

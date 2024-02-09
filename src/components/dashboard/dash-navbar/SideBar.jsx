@@ -12,7 +12,7 @@ const SideBar = () => {
     <>
         <div>
             {/* taggle */}
-            <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <button class="btn btn d-block d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                 <HiBars3BottomLeft />
             </button>
 

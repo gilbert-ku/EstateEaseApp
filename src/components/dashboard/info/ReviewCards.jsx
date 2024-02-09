@@ -74,70 +74,69 @@ const ReviewCards = () => {
 
   return (
     <>
-    <Carousel
-        swipeable={true}
-        draggable={true}
-        showDots={true}
-        responsive={responsive}
-        ssr={true}
-        infinite={true}
-        autoPlay={true}
-        autoPlaySpeed={6000}
-        keyBoardControl={true}
-        customTransition="transform 300ms ease-in-out"
-        transitionDuration={2000}
-        containerClass="carousel-container"
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
-      >
-        {reviewData.map((review, index) => (
-          <div key={index} 
-          className='card my-2 ' 
-          style={{width: "24rem"}}>
-            <div className='d-flex justify-content-between'>
-                <div className='d-flex  my-2'>
-                <img src={review.image} 
-                    className="rounded-circle bg-dark ms-2 p-1 p-md-2"
-                    alt="Property" 
-                    style={{ width: "5rem", height: "5rem" }} 
-                    /> 
-                    <div className='d-flex justify-content-center align-item-center my-auto ms-3'>
-                        <div className='review--name'>
-                        <p className='fs-4 review--name'>{review.name}</p>
-                        <p className='me-3 review--time'>{review.time}</p> 
-                        </div>
-                    </div>
-                </div>
-                <div className='m-2 m-md-4 fs-3 fs-md-4'>
-                    <button className='btn'
-                    onClick={handleLiked}
-                    >
-                      {isClicked ? <FcLike /> : <FcLikePlaceholder />}
-                    </button>
-                    
-                </div>
-            </div>
-            
-            
-            <div className='card-body'>
-                <div className=''>
-                <span className='fs-5 p-1 p-md-2'>
-                    <FaStar style={{ color: "#9C5412" }}/>
-                    <FaStar style={{ color: "#9C5412" }}/>
-                    <FaStar style={{ color: "#9C5412" }}/>
-                    <FaStar style={{ color: "#9C5412" }}/>
-                    <FaStarHalfAlt style={{ color: "#9C5412" }}/>
-                  </span>
-                </div>
+      <Carousel
+          swipeable={true}
+          draggable={true}
+          showDots={true}
+          responsive={responsive}
+          ssr={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={6000}
+          keyBoardControl={true}
+          customTransition="transform 300ms ease-in-out"
+          transitionDuration={2000}
+          containerClass="carousel-container"
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-40-px"
+        >
+          {reviewData.map((review, index) => (
+            <div key={index} 
+            className='card my-2 ' 
+            style={{width: "24rem"}}>
+              <div className='d-flex justify-content-between'>
+                  <div className='d-flex  my-2'>
+                  <img src={review.image} 
+                      className="rounded-circle bg-dark ms-2 p-1 p-md-2"
+                      alt="Property" 
+                      style={{ width: "5rem", height: "5rem" }} 
+                      /> 
+                      <div className='d-flex justify-content-center align-item-center my-auto ms-3'>
+                          <div className='review--name'>
+                          <p className='fs-4 review--name'>{review.name}</p>
+                          <p className='me-3 review--time'>{review.time}</p> 
+                          </div>
+                      </div>
+                  </div>
+                  <div className='m-2 m-md-4 fs-3 fs-md-4'>
+                      <button className='btn'
+                      onClick={handleLiked}
+                      >
+                        {isClicked ? <FcLike /> : <FcLikePlaceholder />}
+                      </button>
+                      
+                  </div>
+              </div>
               
-              <p className='p-1 p-md-2'><span className='fs-3 p-2' style={{ color: "#9C5412" }}><ImQuotesLeft/></span>{review.body}</p>
+              
+              <div className='card-body'>
+                  <div className=''>
+                  <span className='fs-5 p-1 p-md-2'>
+                      <FaStar style={{ color: "#9C5412" }}/>
+                      <FaStar style={{ color: "#9C5412" }}/>
+                      <FaStar style={{ color: "#9C5412" }}/>
+                      <FaStar style={{ color: "#9C5412" }}/>
+                      <FaStarHalfAlt style={{ color: "#9C5412" }}/>
+                    </span>
+                  </div>
+                
+                <p className='p-1 p-md-2'><span className='fs-3 p-2' style={{ color: "#9C5412" }}><ImQuotesLeft/></span>{review.body}</p>
+                
+              </div>
               
             </div>
-            
-          </div>
-        ))}
-      </Carousel>
-        
+          ))}
+      </Carousel> 
     </>
   )
 }
