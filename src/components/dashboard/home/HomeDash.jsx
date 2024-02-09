@@ -1,12 +1,18 @@
 import React from 'react'
 import 'react-slideshow-image/dist/styles.css';
 import Tenant from './Tenant';
+import SideNavBar from '../dash-navbar/SideNavBar';
 
 const homeDash = () => {
 
   return (
     <>
+    <div className='d-flex'>
+      <div className='d-none d-md-block'>
+          <SideNavBar />
+      </div>
       <Tenant />
+    </div>  
     </>
   )
 }

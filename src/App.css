@@ -276,9 +276,7 @@
     width: 10vw;
   }
 
-  .offcanvas-dash-nav {
-    width: 18rem;
-  }
+  
 }
 
 @media (max-width: 767px) {
@@ -288,6 +286,8 @@
   .search--btn-hm {
     width: 50vw;
   }
+
+  
 }
 
 .rent--btn {
