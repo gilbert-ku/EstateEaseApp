@@ -1,9 +1,15 @@
 import React from 'react'
 import { FaDownload } from "react-icons/fa6";
+import SideNavBar from '../dash-navbar/SideNavBar';
 
 const Invoice = () => {
   return (
     <>
+
+    <section className='d-flex'>
+      <div className='d-none d-sm-block'>
+      <SideNavBar />
+      </div>
       <div className='container'>
         <div className='d-flex justify-content-between mt-5 '>
           <div>
@@ -104,6 +110,9 @@ const Invoice = () => {
         
         
       </div>
+
+    </section>
+      
     </>
   )
 }
