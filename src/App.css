@@ -138,6 +138,7 @@
 .side--bar {
   width: auto;
   /* height: 100vh; */
+  position: sticky;
 }
 .my-custom--link a{
   color: white;
