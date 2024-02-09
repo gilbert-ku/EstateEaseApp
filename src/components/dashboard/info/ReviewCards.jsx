@@ -15,30 +15,30 @@ const reviewData = [
         image: reviewimg,
         name: "Gilbert K",
         rating : "",
-        body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. Iste mollitia neque veritatis accusantium ea iure odit provident aliquam error, hic ipsa eum suscipit blanditiis, quo nesciunt quasi illum ducimus incidunt eveniet nemo! Rem quas libero eos quasi perferendis.",
+        body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. perferendis.",
         time: "Now"
       },
   { 
     image: reviewimg, 
     name: "John Doe", 
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. Iste mollitia neque veritatis accusantium ea iure odit provident aliquam error, hic ipsa eum suscipit blanditiis, quo nesciunt quasi illum ducimus incidunt eveniet nemo! Rem quas libero eos quasi perferendis.", 
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis.  perferendis.", 
     time: "Today"
  },
   { 
     image: reviewimg, 
     name: "Jane Doe", 
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. Iste mollitia neque veritatis accusantium ea iure odit provident aliquam error, hic ipsa eum suscipit blanditiis, quo nesciunt quasi illum ducimus incidunt eveniet nemo! Rem quas libero eos quasi perferendis.", 
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. perferendis.", 
     time: "4 Days Ago" 
 },
   { 
     image: reviewimg, 
     name: "Ravis O.", 
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. Iste mollitia neque veritatis accusantium ea iure odit provident aliquam error, hic ipsa eum suscipit blanditiis, quo nesciunt quasi illum ducimus incidunt eveniet nemo! Rem quas libero eos quasi perferendis.", 
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. perferendis.", 
     time: "5 Days Ago" },
   { 
     image: reviewimg, 
     name: "Myle M.", 
-    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. Iste mollitia neque veritatis accusantium ea iure odit provident aliquam error, hic ipsa eum suscipit blanditiis, quo nesciunt quasi illum ducimus incidunt eveniet nemo! Rem quas libero eos quasi perferendis.", 
+    body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nulla officia sunt odio temporibus tenetur nemo cumque repudiandae expedita ratione hic qui, alias esse suscipit, soluta numquam. Expedita, iusto obcaecati? Illo, aut quod ea accusamus exercitationem repellat vitae ullam molestiae commodi dolore ratione minus saepe quo nulla provident nemo aspernatur hic vero. Vel, ipsum voluptatem maxime dolore consequuntur laborum debitis. perferendis.", 
     time: "10 Days Ago" 
 },
 ];   
