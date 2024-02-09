@@ -112,17 +112,17 @@ import SideNavMenuItem from './SideNavMenuItem';
 
 const SideNavBar = () => {
   return (
-    <div className="d-flex justify-content-start mt-0" style={{ backgroundColor: '#9C5412', width: '20vw', height: '100vh' }}>
-      <nav className="navbar mt-0 pt-0">
-        <ul className="navbar-nav my-custom--link mt-1 mt-sm-">
-          <SideNavMenuItem to="/Dashboard" icon={<MdOutlineDashboardCustomize />} label="Dashboard" />
-          <SideNavMenuItem to="/Dashboard/editProfile" icon={<MdEdit />} label="Edit Profile" />
-          <SideNavMenuItem to="/Dashboard/invoice" icon={<FaFileInvoiceDollar />} label="Invoice" />
-          <SideNavMenuItem to="/Dashboard/payments" icon={<MdOutlinePayments />} label="Payments" />
-          <SideNavMenuItem to="/Dashboard/receipts" icon={<IoReceiptOutline />} label="Receipt" />
-          <SideNavMenuItem to="/Dashboard/contact" icon={<AiOutlineMessage />} label="Contact Us" />
-          <SideNavMenuItem to="/Dashboard/reviews" icon={<MdOutlineReviews />} label="Reviews" />
-          <SideNavMenuItem to="/logout" icon={<HiOutlineLogout />} label="Log Out" />
+    <div className="justify-content-start mt-0" style={{ backgroundColor: '#9C5412', height: '100vh' }}>
+      <nav className="navbar mt-0 pt-0"> 
+        <ul className="navbar-nav my-custom--link mt-5 p-5" style={{height: '100vh', width: "16rem"}}>
+          <SideNavMenuItem to="/Dashboard" icon={<MdOutlineDashboardCustomize className='fs-4 me-2' />} label="Dashboard" />
+          <SideNavMenuItem to="/Dashboard/editProfile" icon={<MdEdit className='fs-4 me-2' />} label="Edit Profile" />
+          <SideNavMenuItem to="/Dashboard/invoice" icon={<FaFileInvoiceDollar className='fs-4 me-2' />} label="Invoice" />
+          <SideNavMenuItem to="/Dashboard/payments" icon={<MdOutlinePayments className='fs-4 me-2' />} label="Payments" />
+          <SideNavMenuItem to="/Dashboard/receipts" icon={<IoReceiptOutline className='fs-4 me-2' />} label="Receipt" />
+          <SideNavMenuItem to="/Dashboard/contact" icon={<AiOutlineMessage className='fs-4 me-2' />} label="Contact Us" />
+          <SideNavMenuItem to="/Dashboard/reviews" icon={<MdOutlineReviews className='fs-4 me-2' />} label="Reviews" />
+          <SideNavMenuItem to="/logout" icon={<HiOutlineLogout className='fs-4 me-2' />} label="Log Out" />
         </ul>
       </nav>
     </div>
