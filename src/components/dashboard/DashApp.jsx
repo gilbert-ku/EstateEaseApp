@@ -10,10 +10,12 @@ import Receipts from './payment-receipt/Receipts';
 import EditProfile from './Profile/EditProfile';
 import Setting from './Profile/Setting';
 import RentForm from "./home/RentForm"
+import SideBar from './dash-navbar/SideBar';
 
 const DashApp = () => {
   return (
     <>
+    <SideBar />
       <Routes>
         <Route path="editProfile" element={<EditProfile />} />
         <Route path="setting" element={<Setting />} />

@@ -10,6 +10,7 @@ import sitting2  from "/sittingroom2 .jpeg"
 import profile from "/reviews.png"
 import { MdOutlineBedroomChild, MdOutlineBathtub } from "react-icons/md";
 import { IoIosHeartEmpty } from "react-icons/io";
+import SideNavBar from '../dash-navbar/SideNavBar';
 
 
 
@@ -18,8 +19,14 @@ const Tenant = () => {
     
   return (
     <>
-        <section className="container " style={{height: "100vh", width:"100vw"}}>
+        <section className='fluid  home--dash d-flex '>
+            {/* nav */}
+            {/* <div className='px-1 px-sm-5 side--bar ' style={{backgroundColor: "#9C5412"}}>
+            <SideNavBar />
+            </div> */}
+            <section className="container " style={{height: "100vh", width:"100vw"}}>
             {/* new applicant */}
+            
             <div className='d-md-flex justify-content-between border border-2 p-2 rounded-3 mt-1 mt-md-2'>
 
                 <div className='d-flex '>
@@ -252,6 +259,9 @@ const Tenant = () => {
             </div>
             
         </section>
+
+        </section>
+        
     </>
   )
 }
