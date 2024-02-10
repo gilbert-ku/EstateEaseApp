@@ -18,7 +18,7 @@ const Tenant = () => {
     
   return (
     <>
-        <section className='fluid  home--dash d-flex '>
+        <section className='container  home--dash d-flex '>
             {/* nav */}
             {/* <div className='px-1 px-sm-5 side--bar ' style={{backgroundColor: "#9C5412"}}>
             <SideNavBar />
