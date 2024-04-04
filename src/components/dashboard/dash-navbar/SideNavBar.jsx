@@ -114,7 +114,7 @@ const SideNavBar = () => {
   return (
     <div className="justify-content-start mt-0" style={{ backgroundColor: '#9C5412', height: '100vh' }}>
       <nav className="navbar mt-0 pt-0"> 
-        <ul className="navbar-nav my-custom--link mt-5 p-5" style={{height: '100vh', width: "16rem"}}>
+        <ul className="navbar-nav my-custom--link mt-5 p-5" style={{ width: "16vw"}}>
           <SideNavMenuItem to="/Dashboard" icon={<MdOutlineDashboardCustomize className='fs-4 me-2' />} label="Dashboard" />
           <SideNavMenuItem to="/Dashboard/editProfile" icon={<MdEdit className='fs-4 me-2' />} label="Edit Profile" />
           <SideNavMenuItem to="/Dashboard/invoice" icon={<FaFileInvoiceDollar className='fs-4 me-2' />} label="Invoice" />

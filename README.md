@@ -4,6 +4,8 @@
 
 [View Figma Design](https://www.figma.com/proto/ksA4NN2fnpTF55RWZ7fO7b/estateease?type=design&node-id=2-4&t=v2rhWXmXjZznFI3U-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A4)
 
+# How To Navigate to Tenant Dashboard
+To access the Tenant dashboard, begin by selecting the "Account" option. From there, proceed to click on "My Account" and choose the "Login with Google Account" feature. Please note that while the frontend is fully functional, development on the backend is still in progress.
 
 # Tenat dashboard
 
